@@ -1,0 +1,238 @@
+body {
+
+    font-family: texto, sans-serif;
+    background-color: var(--colorFondo);
+    font-weight: 600;
+    color: var(--colorTexto);
+    font-size: 34px;
+    cursor: default;
+}
+
+/*----------------------------------------------------------*/
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 90px;
+    font-weight: 900;
+    background-color: var(--colorFondo);
+    color: var(--color1);
+    box-shadow: #ccc 4px 4px 4px;
+}
+
+header>div:nth-child(1) {
+    position: absolute;
+    font-size: 20px;
+    top: 15px;
+    left: 40px;
+}
+
+header>div:nth-child(2) {
+    position: absolute;
+    top: 15px;
+    right: 40px;
+
+}
+
+header>div>a {
+    color: var(--color1);
+    text-decoration: none;
+    margin: 0 20px;
+    transition: color .7s;
+}
+
+header>div>a:hover {
+    color: var(--color2);
+}
+
+header>div>a:visited, header>div>a:active {
+    color: inherit;
+}
+
+header>div>a>img {
+    margin-right: 10px;
+    width: 28px;
+    filter: opacity(0.3) drop-shadow(0 0 0 var(--color4));
+}
+/*----------------------------------------------------------*/
+#titular {
+    width: 100%;
+    font-family: titulo, sans-serif;
+    color: var(--color1);
+    text-align: center;
+}
+
+#titular>div:nth-child(1) {
+    margin: 180px auto 30px;
+    width: 100px;
+    height: 100px;
+    background-color: var(--color1);
+    background-image: url("img/logo.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100px 100px;
+    border-radius: 50%;
+}
+
+#titular>div:nth-child(2) {
+    font-family: titulo, sans-serif;
+    font-weight: 100;
+    font-size: 120px;
+}
+
+#titular>div:nth-child(3) {
+    font-family: texto, sans-serif;
+    font-size: 44px;
+}
+
+#eslogan, #coletilla {
+    margin: 120px auto;
+    text-align: center;
+    font-size: 38px;
+    width: 60vw;
+    font-weight: 900;
+    color: #666;
+    opacity: 0;
+    transition: opacity 2s
+}
+
+#coletilla {
+    margin: 0 auto 100px auto;
+    font-size: 48px;
+    opacity: 1;
+}
+
+
+/*----------------------------------------------------------*/
+#whatsapp {
+    display: block;
+    text-decoration: none;
+    margin: auto;
+    padding: 24px 46px;
+    width: 70vw;
+    text-align: center;
+    background-color: var(--color1);
+    color: #fff;
+    transition: background-color .4s;
+}
+
+#whatsapp:hover {
+    background-color: var(--color2);
+}
+
+/*----------------------------------------------------------*/
+#imgPortada {
+    margin: 10vw auto 10vw 10%;
+    width: 80vw;
+    opacity: 0;
+    transition: opacity .5s;
+}
+
+/*----------------------------------------------------------*/
+section {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 40px auto 40px 10%;
+    width: 80%;
+}
+
+section>div {
+    display: inline-block;
+    margin: 40px 20px;
+    padding: 20px;
+    width: 80vw;
+    height: 760px;
+    background-color: #eee;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: 100%;
+}
+
+section>div>div:nth-child(1) {
+    position: relative;
+    width: 80px;
+    height: 80px;
+    margin-left: auto;
+    line-height: 74px;
+    font-size: 30px;
+    font-weight: 900;
+    color: #fff;
+    text-align: center;
+    background-color: var(--color1);
+    border-radius: 50%;
+
+}
+
+section>div>div:nth-child(2) {
+    position: relative;
+    font-size: 30px;
+    top: -70px;
+    font-family: titulo, sans-serif;
+}
+
+section>div>div:nth-child(3) {
+    position: relative;
+    top: -20px;
+    font-size: 26px;
+}
+
+/*----------------------------------------------------------*/
+#direccion {
+    text-align: center;
+    width: 76vw;
+    margin-top: 100px;
+    margin-left: 12vw;
+    border: 1px solid #ccc;
+}
+
+iframe {
+    width: 100%;
+}
+
+/*----------------------------------------------------------*/
+footer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 40px;
+    padding-bottom: 200px;
+    color: var(--color1);
+    background-color: #333;
+}
+
+footer>div {
+    text-align: center;
+    width: 100%;
+    margin-top: 120px;
+    font-weight: 600;
+}
+
+footer>div>span {
+    display: block;
+    font-size: 28px;
+    font-weight: 900;
+    color: var(--color1);
+    text-transform:capitalize ;
+}
+
+footer>div>img {
+    width: 100px;
+    filter: opacity(0.3) drop-shadow(0 0 0 var(--color4));
+}
+
+footer a {
+    color: var(--color1);
+    text-decoration: none;
+    transition: color .7s;
+}
+
+footer a:hover {
+    color: var(--color2);
+}
+
+
+footer a:visited, footer a:active {
+    color: inherit;
+}
