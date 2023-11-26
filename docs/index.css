@@ -10,18 +10,22 @@ body {
 
 /*----------------------------------------------------------*/
 header {
+    user-select: none;
     position: fixed;
     top: 0;
     width: calc(100% - 480px);
     height: 200px;
     font-size: 50px;
     font-weight: 100;
-    color: var(--color1);
+    letter-spacing: 10px;
     padding: 0 40px;
-    text-shadow: 1px 1px 2px #fff,  
-    1px 1px 2px #fff,
-    1px 1px 2px #000,
-    1px 1px 2px #000;
+    color: var(--color1);
+    text-shadow: 1px 1px 2px var(--color2),
+        1px 1px 2px var(--color2),
+        1px 1px 2px var(--color2),
+        1px 1px 2px var(--color2),
+        1px 1px 2px var(--color2),
+        1px 1px 2px var(--color2);
 
 }
 
@@ -38,11 +42,12 @@ section {
 section>img {
     position: absolute;
     top: 100px;
-    width: 100%;
+    width: calc(100% - 200px);
 
 }
 
 section>div {
+    user-select: none;
     position: absolute;
     top: 100px;
     left: calc(100% - 400px);
@@ -51,7 +56,7 @@ section>div {
     font-size: 24px;
     background-color: rgba(255, 255, 255, .12);
     border-radius: 40px 0 0 40px;
-    user-select: none;
+
 
 }
 
