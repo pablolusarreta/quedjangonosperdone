@@ -42,25 +42,25 @@ section>img {
 
 }
 
-section>div {
+#lista {
     position: absolute;
     top: 100px;
     left: calc(100% - 400px);
     padding: 30px;
     width: 340px;
-    font-size: 24px;
+    font-size: 29px;
     background-color: rgba(255, 255, 255, .12);
     border-radius: 40px 0 0 40px;
     user-select: none;
 
 }
 
-section>div>div {
+#lista>div {
     color: var(--color2);
     transition: color .5s;
 }
 
-section>div>div:hover {
+#lista>div:hover {
     color: var(--color3);
 }
 
