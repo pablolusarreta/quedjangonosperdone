@@ -10,14 +10,22 @@ body {
 
 /*----------------------------------------------------------*/
 header {
+<<<<<<< HEAD
     user-select: none;
     position: fixed;
+=======
+    position: absolute;
+>>>>>>> 8fb8301a5fd44eaf995467b3108dc9968a9c4ccb
     top: 0;
     width: calc(100% - 480px);
     height: 200px;
     font-size: 50px;
     font-weight: 100;
     letter-spacing: 10px;
+<<<<<<< HEAD
+=======
+    color: var(--color1);
+>>>>>>> 8fb8301a5fd44eaf995467b3108dc9968a9c4ccb
     padding: 0 40px;
     color: var(--color1);
     text-shadow: 1px 1px 2px var(--color2),
@@ -46,26 +54,30 @@ section>img {
 
 }
 
+<<<<<<< HEAD
 section>div {
     user-select: none;
+=======
+#lista {
+>>>>>>> 8fb8301a5fd44eaf995467b3108dc9968a9c4ccb
     position: absolute;
     top: 100px;
     left: calc(100% - 400px);
     padding: 30px;
     width: 340px;
-    font-size: 24px;
+    font-size: 29px;
     background-color: rgba(255, 255, 255, .12);
     border-radius: 40px 0 0 40px;
 
 
 }
 
-section>div>div {
+#lista>div {
     color: var(--color2);
     transition: color .5s;
 }
 
-section>div>div:hover {
+#lista>div:hover {
     color: var(--color3);
 }
 
