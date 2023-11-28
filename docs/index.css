@@ -10,18 +10,17 @@ body {
 
 /*----------------------------------------------------------*/
 header {
-
+/*border: 1px solid #ff0;*/
     user-select: none;
     position: absolute;
+    overflow: hidden;
     top: 0;
     width: calc(100% - 80px);
-    height: 200px;
+    height: 120px;
     font-size: 50px;
     font-weight: 100;
     letter-spacing: 10px;
-
     color: var(--color1);
-
     padding: 0 40px;
     color: var(--color1);
     text-shadow: 1px 1px 2px var(--color2),
@@ -71,6 +70,9 @@ section>img {
 }
 
 #player {
+    position: absolute;
+    bottom: 80px;
+    left: 20px;
     margin-top: 40px;
     opacity: .7;
 }
@@ -80,6 +82,7 @@ footer {
     position: fixed;
     bottom: 0px;
     width: calc(100% - 400px);
+    min-width: 400px;
     display: flex;
     color: var(--color2);
     font-size: 28px;
@@ -95,8 +98,12 @@ footer>div {
     position: relative;
     width: 30%;
     margin: 20px 1%;
+    transition: color .5s;
+    color: var(--color2);
 }
-
+footer>div:hover {
+    color: var(--color3);
+}
 footer>div>a>img {
     margin-right: 20px;
     filter: invert(100%);
@@ -105,11 +112,10 @@ footer>div>a>img {
 footer a {
     color: var(--color2);
     text-decoration: none;
-    transition: color .5s;
 }
 
 footer a:hover {
-    color: var(--color3);
+    color: inherit;
 }
 
 footer a:visited, footer a:active {
