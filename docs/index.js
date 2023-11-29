@@ -62,10 +62,10 @@ const movil = () => {
         //document.getElementById("estilo").setAttribute('href', 'movil.css')
         document.body.style.zoom = "2"
         document.getElementById('titulo').style.fontSize = "40px"
-       temas.style.fontSize = "14px"
-        pie.style.width= "100%"
-        pie.style.backgroundColor= "#000"
-        IF.style.width= "100%"
+        temas.style.fontSize = "22px"
+        pie.style.width = "100%"
+        pie.style.backgroundColor = "#000"
+        IF.style.width = "100%"
 
     }
 }
