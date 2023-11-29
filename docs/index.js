@@ -1,15 +1,15 @@
 const idiomas = ['castellano', 'euskera']
-let DATOS, temas, pie;
+let DATOS, temas, pie, IF;
 let temSel = 'tema0'
 const inicio = () => {
     // CONSTANTES
     temas = document.getElementById('lista')
     pie = document.getElementsByTagName('footer')[0]
-    console.log(document.getElementById("imgFondo"))
-    document.getElementById("imgFondo").style.opacity = "1"
-    document.getElementById("imgFondo").addEventListener("load", () => {
-        console.log("CARGADA")
+    IF = document.getElementById("imgFondo")
+    IF.addEventListener('load', () => {
+        IF.style.opacity = "1"
     })
+    IF.setAttribute("src", "img/Portada.jpg")
     // ARRANQUE
     fetch("temas.json")
         .then(response => response.json())
@@ -60,6 +60,13 @@ const movil = () => {
         || navigator.userAgent.match(/Windows Phone/i)) {
         console.log('Movil')
         //document.getElementById("estilo").setAttribute('href', 'movil.css')
+        document.body.style.zoom = "2"
+        document.getElementById('titulo').style.fontSize = "40px"
+       temas.style.fontSize = "14px"
+        pie.style.width= "100%"
+        pie.style.backgroundColor= "#000"
+        IF.style.width= "100%"
+
     }
 }
 window.onresize = reescala
