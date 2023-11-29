@@ -1,33 +1,46 @@
 const idiomas = ['castellano', 'euskera']
-let DATOS, temas, pie
+let DATOS, temas, pie;
+let temSel = 'tema0'
 const inicio = () => {
     // CONSTANTES
     temas = document.getElementById('lista')
-
     pie = document.getElementsByTagName('footer')[0]
+    console.log(document.getElementById("imgFondo"))
+    document.getElementById("imgFondo").style.opacity = "1"
+    document.getElementById("imgFondo").addEventListener("load", () => {
+        console.log("CARGADA")
+    })
     // ARRANQUE
     fetch("temas.json")
         .then(response => response.json())
         .then(data => {
             DATOS = data
             for (let i in DATOS.tema) {
-                temas.innerHTML += `<div id="tema${[i]}" onclick="play('${DATOS.tema[i]}.mp3',this)">${DATOS.tema[i]}</div>`
+                temas.innerHTML += `<div id="tema${[i]}" onclick="play('${DATOS.tema[i]}.mp3',this)" class="tema">
+                ${DATOS.tema[i]}</div>`
             }
             reescala()
             movil()
         })
 }
-const inicia_lista = () => {
-    for (let i in DATOS.tema) {
-        document.getElementById('tema'+i).style.color = 'var(--color2)'
-    }  
-}
 const play = (tema, ob) => {
-    inicia_lista()
-    let player = document.getElementById('player')
-    player.innerHTML = `<audio controls autoplay>
-                        <source src="MP3/${tema}" type="audio/mpeg">
-                    </audio>`
+    document.getElementById(temSel).style.color = 'var(--color2)'
+    let reproductor = document.getElementById('reproductor')
+    if (reproductor.firstChild) reproductor.removeChild(reproductor.firstChild)
+    const audio = document.createElement("audio")
+    audio.setAttribute("controls", '')
+    audio.setAttribute("autoplay", '')
+    audio.addEventListener('ended', () => {
+        reproductor.removeChild(reproductor.firstChild)
+        document.getElementById(temSel).style.color = 'var(--color2)'
+    })
+    const source = document.createElement("source")
+    source.setAttribute("src", `MP3/${tema}`)
+    source.setAttribute("type", 'audio/mpeg')
+    audio.appendChild(source)
+    reproductor.appendChild(audio)
+
+    temSel = ob.id
     ob.style.color = 'var(--color3)'
 }
 const reescala = () => {

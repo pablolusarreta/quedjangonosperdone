@@ -1,5 +1,5 @@
 body {
-
+overflow-x: hidden;
     font-family: texto, sans-serif;
     background-color: var(--colorFondo);
     font-weight: 100;
@@ -12,17 +12,18 @@ body {
 header {
 /*border: 1px solid #ff0;*/
     user-select: none;
-    position: absolute;
+    position: fixed;
     overflow: hidden;
     top: 0;
     width: calc(100% - 80px);
-    height: 120px;
+    height: 114px;
     font-size: 50px;
     font-weight: 100;
     letter-spacing: 10px;
-    color: var(--color1);
     padding: 0 40px;
     color: var(--color1);
+    background-color:#000;
+    box-shadow: 10px 10px 10px black;
     text-shadow: 1px 1px 2px var(--color2),
         1px 1px 2px var(--color2),
         1px 1px 2px var(--color2),
@@ -35,48 +36,51 @@ header>span {
     font-family: titulo;
 }
 
-section {
-    position: absolute;
-    top: 0;
-    width: 100%;
-}
-
-section>img {
-    position: absolute;
+#imgFondo {
+    position: fixed;
     top: 100px;
     width: calc(100% - 200px);
+    opacity: 0;
+    transition: opacity 1s;
 }
 
 
 #lista {
     user-select: none;
     position: absolute;
-    top: 100px;
+    top: 120px;
     left: calc(100% - 400px);
     padding: 30px;
     width: 340px;
     font-size: 29px;
     background-color: rgba(0, 0, 0, .4);
     border-radius: 40px 0 0 40px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    border: 1px solid black;
 }
 
-#lista>div {
+.tema {
     color: var(--color2);
-    transition: color .5s;
+    transition: color .5s;  
 }
 
-#lista>div:hover {
+.tema:hover {
     color: var(--color3);
 }
 
-#player {
-    position: absolute;
+#reproductor {
+    position: fixed;
+    width: calc(100% - 420px);
+    min-width: 400px;
     bottom: 80px;
     left: 20px;
     margin-top: 40px;
-    opacity: .7;
 }
-
+#reproductor > audio{
+    width: 100%;
+    filter: invert(100);
+}
 /*-------------------------------*/
 footer {
     position: fixed;
