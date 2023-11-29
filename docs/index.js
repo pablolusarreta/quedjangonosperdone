@@ -52,7 +52,6 @@ const reescala = () => {
     let ancho = window.innerWidth;
     let zoom = ancho / 1500
     zoom = zoom < 1 ? 1 : zoom
-    console.log(ancho, zoom)
     document.body.style.zoom = zoom
 }
 const movil = () => {

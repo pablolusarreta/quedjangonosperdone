@@ -38,7 +38,18 @@ body {
     font-size: 18px;
     cursor: default;
 }
+body::-webkit-scrollbar {
+    width: 8px;
+}
 
+body::-webkit-scrollbar-thumb {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 4px;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+    background-color: rgba(255, 255, 255, 0.22);
+}
 /*----------------------------------------------------------*/
 header {
     /*border: 1px solid #ff0;*/
@@ -88,7 +99,6 @@ header>span {
     border-radius: 40px 0 0 40px;
     overflow-x: hidden;
     overflow-y: auto;
-    border: 1px solid black;
 }
 
 .elemento {
@@ -100,6 +110,7 @@ header>span {
     filter: invert();
     width: 20px;
     margin-right: 10px;
+    opacity:0.5;
 }
 
 .elemento:hover {
@@ -129,7 +140,7 @@ footer {
     display: flex;
     color: var(--color2);
     font-size: 28px;
-    justify-content: center;
+    justify-content: space-around;
     font-size: 28px;
     height: 70px;
     background-color: #000;
@@ -139,7 +150,7 @@ footer {
 footer>div {
     display: inline-block;
     position: relative;
-    width: 30%;
+    /* width: 30%; */
     margin: 20px 1%;
     transition: color .5s;
     color: var(--color2);
