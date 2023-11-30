@@ -1,16 +1,11 @@
 @font-face {
-    font-family: logo;
-    src: url("fuentes/VINERITC.TTF");
-}
-
-@font-face {
     font-family: titulo;
     src: url("fuentes/LuckiestGuy-Regular.ttf");
 }
 
 @font-face {
     font-family: texto;
-    src: url("fuentes/NanumPenScript-Regular.ttf");
+    src: url("fuentes/IndieFlower-Regular.ttf");
 }
 
 :root {
@@ -38,6 +33,7 @@ body {
     font-size: 18px;
     cursor: default;
 }
+
 body::-webkit-scrollbar {
     width: 8px;
 }
@@ -50,18 +46,23 @@ body::-webkit-scrollbar-thumb {
 body::-webkit-scrollbar-thumb:hover {
     background-color: rgba(255, 255, 255, 0.22);
 }
+
 /*----------------------------------------------------------*/
 header {
     /*border: 1px solid #ff0;*/
     user-select: none;
     position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     overflow: hidden;
+    text-align: center;
     top: 0;
     width: calc(100% - 80px);
     height: 114px;
-    font-size: 50px;
+    font-size: 46px;
     font-weight: 100;
-    letter-spacing: 10px;
+    letter-spacing: 6px;
     padding: 0 40px;
     color: var(--color1);
     background-color: #000;
@@ -91,14 +92,12 @@ header>span {
     user-select: none;
     position: absolute;
     top: 120px;
-    left: calc(100% - 400px);
+    left: calc(100% - 440px);
     padding: 30px;
-    width: 380px;
+    width: 420px;
     font-size: 29px;
     background-color: rgba(0, 0, 0, .4);
-    border-radius: 40px 0 0 40px;
-    overflow-x: hidden;
-    overflow-y: auto;
+    padding-bottom: 120px;
 }
 
 .elemento {
@@ -110,18 +109,19 @@ header>span {
     filter: invert();
     width: 20px;
     margin-right: 10px;
-    opacity:0.5;
+    opacity: 0.5;
 }
 
 .elemento:hover {
     color: var(--color3);
 }
 
+/*-------------------------------*/
 #reproductor {
     position: fixed;
-    width: calc(100% - 420px);
-    min-width: 400px;
-    bottom: 80px;
+    width: calc(100% - 440px);
+    min-width: 380px;
+    bottom: 130px;
     left: 20px;
     margin-top: 40px;
 }
@@ -135,22 +135,22 @@ header>span {
 footer {
     position: fixed;
     bottom: 0px;
-    width: calc(100% - 400px);
-    min-width: 400px;
+    /*width: calc(100% - 400px);*/
+    width: 100%;
+    height: 100px;
     display: flex;
     color: var(--color2);
     font-size: 28px;
     justify-content: space-around;
     font-size: 28px;
-    height: 70px;
-    background-color: #000;
-    border-radius: 0 40px 0 0;
+    background-color: black;
+    box-shadow: -10px -10px 10px black;
 }
 
 footer>div {
     display: inline-block;
     position: relative;
-    /* width: 30%; */
+    text-align: center;
     margin: 20px 1%;
     transition: color .5s;
     color: var(--color2);
