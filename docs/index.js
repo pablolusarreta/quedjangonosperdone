@@ -19,7 +19,6 @@ const inicio = () => {
                 <img src="img/${DATOS.elementos[i].tipo}.png" alt="·">${DATOS.elementos[i].nombre}</div>`
             }
             reescala()
-
         })
 }
 const play = (url, tipo, ob) => {   
@@ -48,9 +47,10 @@ const play = (url, tipo, ob) => {
 }
 const reescala = () => {
     let ancho = window.innerWidth;
-    let zoom = ancho / 1500
+    let zoom = ancho / 2000
     zoom = zoom < 1 ? 1 : zoom
     document.body.style.zoom = zoom
+    console.log(zoom)
 }
 window.onresize = reescala
 window.onload = inicio
