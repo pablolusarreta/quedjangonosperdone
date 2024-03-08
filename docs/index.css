@@ -1,9 +1,4 @@
 @font-face {
-    font-family: titulo;
-    src: url("fuentes/LuckiestGuy-Regular.ttf");
-}
-
-@font-face {
     font-family: texto;
     src: url("fuentes/IndieFlower-Regular.ttf");
 }
@@ -25,6 +20,8 @@
 /*----------------------------------------------------------*/
 
 body {
+    display: grid;
+    place-items: center;
     overflow-x: hidden;
     font-family: texto, sans-serif;
     background-color: var(--colorFondo);
@@ -60,29 +57,25 @@ header {
     top: 0;
     width: calc(100% - 80px);
     height: 114px;
-    font-size: 46px;
-    font-weight: 100;
+    font-size: 70px;
+    font-weight: 900;
     letter-spacing: 6px;
     padding: 0 40px;
     color: var(--color1);
     background-color: #000;
     box-shadow: 10px 10px 10px black;
-    text-shadow: 1px 1px 2px var(--color2),
-        1px 1px 2px var(--color2),
-        1px 1px 2px var(--color2),
-        1px 1px 2px var(--color2),
-        1px 1px 2px var(--color2),
-        1px 1px 2px var(--color2);
+
 }
 
 header>span {
-    font-family: titulo;
+    font-family: texto;
 }
 
 #imgFondo {
     position: fixed;
     top: 100px;
-    width: calc(100% - 200px);
+    /*width: calc(100% - 200px);*/
+    height: 100%;
     opacity: 0;
     transition: opacity 1s;
 }

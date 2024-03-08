@@ -8,7 +8,7 @@ const inicio = () => {
     IF.addEventListener('load', () => {
         IF.style.opacity = "1"
     })
-    IF.setAttribute("src", "img/Portada.jpg")
+    IF.setAttribute("src", "img/Portada.webp")
     // ARRANQUE
     fetch("datos.json")
         .then(response => response.json())
