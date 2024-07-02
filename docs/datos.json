@@ -95,5 +95,23 @@
             "direccion": "https://youtu.be/d5TaasrK3go",
             "tipo": "video"
         }
+    ],
+    "pie": [
+        {
+            "nombre": "llamar",
+            "direccion": "tel:34607942427",
+            "img": "img/telefono.png",
+            "pc": false
+        }, {
+            "nombre": "chatear",
+            "direccion": "https://api.whatsapp.com/send?phone=607942427&text=",
+            "img": "img/whatsapp.png",
+            "pc": false
+        }, {
+            "nombre": "escribir",
+            "direccion": "mailto:pablo.lusarreta@gmail.com",
+            "img": "img/email.png",
+            "pc": true
+        }
     ]
 }
