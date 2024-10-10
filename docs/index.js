@@ -37,7 +37,10 @@ const pie = $('footer')
 const IF = $("#imgFondo")
 let temSel = 'elemento0'
 //
-IF.addEventListener('load', () => IF.style.opacity = "1")
+IF.addEventListener('load', () => {
+    IF.style.opacity = "1"
+    IF.style.filter = "blur(0px)"
+})
 IF.setAttribute("src", "img/Portada.webp")
 // ARRANQUE
 
@@ -52,7 +55,8 @@ fetch("datos.json")
                 <img src="img/${DATOS.elementos[i].tipo}.png" alt="·">${DATOS.elementos[i].nombre}</div>`
         }
         for (let i in DATOS.pie) {
-            pie.innerHTML += esmovil || DATOS.pie[i].pc ? `<div><a href="${DATOS.pie[i].direccion}" target="_blank"><img src="${DATOS.pie[i].img}"><br>${DATOS.pie[i].nombre}</a></div>` : ''
+            pie.innerHTML += esmovil || DATOS.pie[i].pc ? `<div><a href="${DATOS.pie[i].direccion}" target="_blank">
+                <img src="${DATOS.pie[i].img}"><br>${DATOS.pie[i].nombre}</a></div>` : ''
         }
         reescala()
     })

@@ -91,6 +91,11 @@
             "tipo": "mp3"
         },
         {
+            "nombre": "On that morning 09.10.2024.mp3",
+            "direccion": "On that morning 09.10.2024.mp3",
+            "tipo": "mp3"
+        },
+        {
             "nombre": "Vídeo Etxeberri Plaza 09 2023 ",
             "direccion": "https://youtu.be/d5TaasrK3go",
             "tipo": "video"
@@ -109,7 +114,7 @@
             "pc": false
         }, {
             "nombre": "escribir",
-            "direccion": "mailto:pablo.lusarreta@gmail.com",
+            "direccion": "mailto:pablo.lusarreta@gmail.com?subject=Escrito desde la web",
             "img": "img/email.png",
             "pc": true
         }
