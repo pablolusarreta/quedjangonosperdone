@@ -87,11 +87,11 @@ header>span {
     position: absolute;
     top: 120px;
     left: calc(100% - 440px);
-    padding: 30px;
+    padding: 60px 30px;
     width: 420px;
-    font-size: 29px;
+    font-size: 22px;
     background-color: rgba(0, 0, 0, .4);
-    padding-bottom: 120px;
+    border-radius: 30px;
 }
 
 .elemento {

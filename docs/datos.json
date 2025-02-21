@@ -81,7 +81,7 @@
             "tipo": "mp3"
         },
         {
-            "nombre": "Tarde em Itapoa 02 .2022",
+            "nombre": "Tarde em Itapoa 02 2022",
             "direccion": "Tarde em Itapoa 07.02.2022",
             "tipo": "mp3"
         },
@@ -91,8 +91,18 @@
             "tipo": "mp3"
         },
         {
-            "nombre": "On that morning 09.10.2024",
+            "nombre": "On that morning 10 2024",
             "direccion": "On that morning 09.10.2024",
+            "tipo": "mp3"
+        },
+        {
+            "nombre": "Cantaloupe Island 022025",
+            "direccion": "Cantaloupe island 10.02.2025",
+            "tipo": "mp3"
+        },
+        {
+            "nombre": "Place du Tertre 02 2025",
+            "direccion": "Place du Tertre 10.02.2025 ",
             "tipo": "mp3"
         },
         {
