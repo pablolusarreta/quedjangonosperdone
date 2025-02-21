@@ -91,6 +91,11 @@
             "tipo": "mp3"
         },
         {
+            "nombre": "Vídeo Etxeberri Plaza 09 2023 ",
+            "direccion": "https://youtu.be/d5TaasrK3go",
+            "tipo": "video"
+        },
+        {
             "nombre": "On that morning 10 2024",
             "direccion": "On that morning 09.10.2024",
             "tipo": "mp3"
@@ -104,12 +109,8 @@
             "nombre": "Place du Tertre 02 2025",
             "direccion": "Place du Tertre 10.02.2025 ",
             "tipo": "mp3"
-        },
-        {
-            "nombre": "Vídeo Etxeberri Plaza 09 2023 ",
-            "direccion": "https://youtu.be/d5TaasrK3go",
-            "tipo": "video"
         }
+        
     ],
     "pie": [
         {

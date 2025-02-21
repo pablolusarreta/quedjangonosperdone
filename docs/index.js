@@ -45,10 +45,11 @@ IF.setAttribute("src", "img/Portada.webp")
 // ARRANQUE
 
 const esmovil = (/Android|iPhone|iPad|Mobile/i.test(navigator.userAgent))
-
-fetch("datos.json")
+const t = new Date().getTime()
+fetch(`datos.json?t=${t}`)
     .then(response => response.json())
     .then(data => {
+        data.elementos.reverse()
         const DATOS = data
         for (let i in DATOS.elementos) {
             elementos.innerHTML += `<div id="elemento${[i]}" onclick="play('${DATOS.elementos[i].direccion}.mp3','${DATOS.elementos[i].tipo}',this)" class="elemento">
