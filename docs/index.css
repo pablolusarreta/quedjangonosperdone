@@ -132,7 +132,7 @@ footer {
     position: fixed;
     bottom: 0px;
     text-align: center;
-    width: 50vw;
+    width: 100vw;
     min-width: 500px;
     height: 100px;
     display: flex;
