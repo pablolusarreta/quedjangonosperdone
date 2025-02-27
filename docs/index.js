@@ -1,5 +1,5 @@
 const play = (url, tipo, ob) => {
-    if (tipo === "mp3") {
+    if (tipo === "jazz" || tipo === "bossa" || tipo === "blues") {
         document.getElementById(temSel).style.color = 'var(--color2)'
         let reproductor = document.getElementById('reproductor')
         if (reproductor.firstChild) reproductor.removeChild(reproductor.firstChild)
@@ -22,26 +22,13 @@ const play = (url, tipo, ob) => {
     }
 
 }
-const reescala = () => {
-    let ancho = window.innerWidth;
-    let zoom = ancho / 2000
-    zoom = zoom < 1 ? 1 : zoom
-    document.body.style.zoom = zoom
-    //console.log(zoom)
-}
 //
 const $ = ele => document.querySelector(ele)
-const idiomas = ['castellano', 'euskera']
 const elementos = $('#lista')
 const pie = $('footer')
-const IF = $("#imgFondo")
+
 let temSel = 'elemento0'
-//
-IF.addEventListener('load', () => {
-    IF.style.opacity = "1"
-    IF.style.filter = "blur(0px)"
-})
-IF.setAttribute("src", "img/Portada.webp")
+
 // ARRANQUE
 
 const esmovil = (/Android|iPhone|iPad|Mobile/i.test(navigator.userAgent))
@@ -59,7 +46,5 @@ fetch(`datos.json?t=${t}`)
             pie.innerHTML += esmovil || DATOS.pie[i].pc ? `<div><a href="${DATOS.pie[i].direccion}" target="_blank">
                 <img src="${DATOS.pie[i].img}"><br>${DATOS.pie[i].nombre}</a></div>` : ''
         }
-        reescala()
     })
 
-window.onresize = reescala
