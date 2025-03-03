@@ -123,13 +123,13 @@ header {
     position: fixed;
     width: calc(100% - 440px);
     min-width: 380px;
-    bottom: 220px;
-    margin-top: 40px;
+    bottom: 100px;
+
+    zoom: 2;
 }
 
 #reproductor>audio {
     width: 100%;
-    filter: invert(100);
 }
 
 /*-------------------------------*/
