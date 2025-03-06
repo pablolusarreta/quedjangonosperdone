@@ -123,7 +123,12 @@
         },
         {
             "nombre": "Manha de Carnaval 03 2025",
-            "direccion": "https://www.youtube.com/watch?v=sXxKBJg1cIo",
+            "direccion": "https://youtu.be/sXxKBJg1cIo",
+            "tipo": "video"
+        },
+        {
+            "nombre": "Comel Love 03 2025",
+            "direccion": "https://youtu.be/YTSh3kDg7Ms",
             "tipo": "video"
         }
     ],
