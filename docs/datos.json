@@ -101,7 +101,7 @@
             "tipo": "blues"
         },
         {
-            "nombre": "Cantaloupe Island 022025",
+            "nombre": "Cantaloupe Island 02 2025",
             "direccion": "Cantaloupe island 10.02.2025",
             "tipo": "jazz"
         },
@@ -111,9 +111,20 @@
             "tipo": "jazz"
         },
         {
-            "nombre": "Freedom 02 2025",
+            "nombre": "Freedom trio 02 2025",
             "direccion": "Freedom 14.02.2025",
             "tipo": "blues"
+        }
+        ,
+        {
+            "nombre": "On that morning trio 03 2025",
+            "direccion": "On that morning trio. 05.03.2025",
+            "tipo": "blues"
+        },
+        {
+            "nombre": "Manha de Carnaval 03 2025",
+            "direccion": "https://www.youtube.com/watch?v=sXxKBJg1cIo",
+            "tipo": "video"
         }
     ],
     "pie": [
