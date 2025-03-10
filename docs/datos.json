@@ -1,6 +1,26 @@
 {
     "elementos": [
         {
+            "nombre": "Vídeo Etxeberri Plaza 09 2023",
+            "direccion": "https://youtu.be/d5TaasrK3go",
+            "tipo": "video"
+        },
+        {
+            "nombre": "Stormy Monday 03 2025",
+            "direccion": "https://youtu.be/d5TaasrK3go",
+            "tipo": "video"
+        }
+        {
+            "nombre": "Manha de Carnaval 03 2025",
+            "direccion": "https://youtu.be/sXxKBJg1cIo",
+            "tipo": "video"
+        },
+        {
+            "nombre": "Comes Love 03 2025",
+            "direccion": "https://youtu.be/YTSh3kDg7Ms",
+            "tipo": "video"
+        },
+        {
             "nombre": "After youve gone 10 2023",
             "direccion": "After youve gone 26.10.2023",
             "tipo": "jazz"
@@ -91,11 +111,6 @@
             "tipo": "bossa"
         },
         {
-            "nombre": "Vídeo Etxeberri Plaza 09 2023",
-            "direccion": "https://youtu.be/d5TaasrK3go",
-            "tipo": "video"
-        },
-        {
             "nombre": "On that morning 10 2024",
             "direccion": "On that morning 09.10.2024",
             "tipo": "blues"
@@ -114,22 +129,26 @@
             "nombre": "Freedom trio 02 2025",
             "direccion": "Freedom 14.02.2025",
             "tipo": "blues"
-        }
-        ,
+        },
         {
             "nombre": "On that morning trio 03 2025",
             "direccion": "On that morning trio. 05.03.2025",
             "tipo": "blues"
         },
         {
-            "nombre": "Manha de Carnaval 03 2025",
-            "direccion": "https://youtu.be/sXxKBJg1cIo",
-            "tipo": "video"
+            "nombre": "Mahana de Carnaval 03 2025",
+            "direccion": "Mañana de Carnaval 03 2025",
+            "tipo": "bossa"
         },
         {
-            "nombre": "Comes Love 03 2025",
-            "direccion": "https://youtu.be/YTSh3kDg7Ms",
-            "tipo": "video"
+            "nombre": "Comes love 03 2025",
+            "direccion": "Comes love cuarteto 03 2025",
+            "tipo": "jazz"
+        },
+        {
+            "nombre": "Stormy monday",
+            "direccion": "Stormy monday 03 2025",
+            "tipo": "Blues"
         }
     ],
     "pie": [
