@@ -154,6 +154,21 @@
             "nombre": "Stormy monday 03 2025",
             "direccion": "Stormy monday 03 2025",
             "tipo": "blues"
+        },
+        {
+            "nombre": "Seul ce soir cuarteto 03 2025",
+            "direccion": "Seul ce soir cuarteto 03 2025",
+            "tipo": "jazz"
+        },
+        {
+            "nombre": "Mahana de Carnaval trio  03 2025",
+            "direccion": "Mahana de Carnaval trio  03 2025",
+            "tipo": "bossa"
+        },
+        {
+            "nombre": "All off my cuarteto 03 2025",
+            "direccion": "All off my cuarteto 03 2025",
+            "tipo": "jazz"
         }
     ],
     "pie": [
