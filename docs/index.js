@@ -22,6 +22,8 @@ const play = (url, tipo, ob) => {
     }
 
 }
+
+window.addEventListener('load',()=>{
 //
 const $ = ele => document.querySelector(ele)
 const elementos = $('#lista')
@@ -29,6 +31,15 @@ const pie = $('footer')
 
 let temSel = 'elemento0'
 
+if (screen.orientation) {
+    screen.orientation.lock("portrait").then(() => {
+        console.log("Orientación bloqueada en modo retrato.");
+    }).catch((error) => {
+        console.error("Error al bloquear la orientación:", error);
+    });
+} else {
+    console.log("La API de orientación de pantalla no es compatible con este navegador.");
+}
 // ARRANQUE
 
 const esmovil = (/Android|iPhone|iPad|Mobile/i.test(navigator.userAgent))
@@ -46,5 +57,5 @@ fetch(`datos.json?t=${t}`)
             pie.innerHTML += esmovil || DATOS.pie[i].pc ? `<div><a href="${DATOS.pie[i].direccion}" target="_blank">
                 <img src="${DATOS.pie[i].img}"><br>${DATOS.pie[i].nombre}</a></div>` : ''
         }
-    })
-
+    })    
+})
