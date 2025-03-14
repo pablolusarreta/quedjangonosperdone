@@ -22,14 +22,14 @@ const play = (url, tipo, ob) => {
     }
 
 }
-
-window.addEventListener('load',()=>{
-//
 const $ = ele => document.querySelector(ele)
 const elementos = $('#lista')
 const pie = $('footer')
 
 let temSel = 'elemento0'
+window.addEventListener('load',()=>{
+//
+
 
 if (screen.orientation) {
     screen.orientation.lock("portrait").then(() => {
