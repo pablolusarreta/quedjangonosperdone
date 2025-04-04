@@ -6,21 +6,6 @@
             "tipo": "video"
         },
         {
-            "nombre": "Stormy Monday 03 2025",
-            "direccion": "https://youtu.be/bfJRGE8hsns",
-            "tipo": "video"
-        },
-        {
-            "nombre": "Manha de Carnaval 03 2025",
-            "direccion": "https://youtu.be/sXxKBJg1cIo",
-            "tipo": "video"
-        },
-        {
-            "nombre": "Comes Love 03 2025",
-            "direccion": "https://youtu.be/YTSh3kDg7Ms",
-            "tipo": "video"
-        },
-        {
             "nombre": "After youve gone 10 2023",
             "direccion": "After youve gone 26.10.2023",
             "tipo": "jazz"
@@ -169,6 +154,31 @@
             "nombre": "All of me cuarteto 03 2025",
             "direccion": "All off my cuarteto 03 2025",
             "tipo": "jazz"
+        },
+        {
+            "nombre": "Stormy Monday 03 2025",
+            "direccion": "https://youtu.be/bfJRGE8hsns",
+            "tipo": "video"
+        },
+        {
+            "nombre": "Manha de Carnaval 03 2025",
+            "direccion": "https://youtu.be/sXxKBJg1cIo",
+            "tipo": "video"
+        },
+        {
+            "nombre": "Comes Love 03 2025",
+            "direccion": "https://youtu.be/YTSh3kDg7Ms",
+            "tipo": "video"
+        },
+        {
+            "nombre": "Isn't She Lovely 04 2025",
+            "direccion": "https://youtu.be/SCUNFV6g2i4",
+            "tipo": "video"
+        },
+        {
+            "nombre": "Lobo López 04 2025",
+            "direccion": "https://youtu.be/M6ET6UxpXB0",
+            "tipo": "video"
         }
     ],
     "pie": [
