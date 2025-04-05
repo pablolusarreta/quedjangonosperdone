@@ -139,7 +139,7 @@ header {
     min-width: 380px;
     max-width: 450px;
     bottom: 150px;
-    filter: sepia();
+    /*filter: sepia();*/
     zoom: 1.5;
 }
 
