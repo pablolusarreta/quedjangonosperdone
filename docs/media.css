@@ -20,8 +20,3 @@
 
 }
 
-@media (max-width: 720px) {
-    body {
-        zoom: 1;
-    }
-}
