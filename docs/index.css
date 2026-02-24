@@ -25,11 +25,10 @@ body {
     background-color: var(--colorFondo);
     color: white;
     font-family: texto;
-    font-size: 2rem;
     height: 100vh;
     display: grid;
     /* Definimos 4 filas: auto, auto, la lista crece (1fr), auto */
-    grid-template-rows: auto auto 1fr 4rem;
+    grid-template-rows: auto auto 1fr;
     overflow: hidden;
     /* Evita el scroll general de la página */
     user-select: none;
@@ -97,17 +96,21 @@ footer {
     overflow-y: auto;
     /* Centrado horizontal */
     margin: 10px auto;
-    width: 90%;
+    width: 100%;
+    font-size: 2.4rem;
+
+
     /* Margen lateral en móviles */
-    max-width: 680px;
+    max-width: 780px;
     /* Ancho máximo para que no se estire demasiado */
-    font-family: lista;
+    font-family: texto;
 
 }
 
 .lista-musical {
     list-style: none;
     text-align: center;
+    padding-bottom: 8rem;
     /* Centra el texto de cada título */
 }
 
@@ -119,7 +122,7 @@ footer {
     list-style: none;
     /* Opcional: quita el punto de la lista */
     gap: 6px;
-    padding: 2rem;
+    padding: 0.4rem;
     letter-spacing: 0.1rem;
     color: var(--gris);
 }
@@ -137,27 +140,23 @@ footer {
 
 .lista-musical .elemento {
     color: var(--colorText);
-    transition: background-color .5s;
 }
 
 .lista-musical .elemento>img {
     margin-right: 30px;
 }
 
-.lista-musical .elemento:hover {
-    background-color: #333;
-}
-
 /* 4º Pie de página ----------------------------------------------------*/
 footer {
     position: fixed;
     bottom: 0;
-    width: 100vw;;
+    width: 100vw;
+    ;
     display: grid;
     /* Tres columnas iguales */
     grid-template-columns: repeat(3, 1fr);
     align-items: center;
-   
+
     background-color: #000;
     text-transform: capitalize;
 }
@@ -171,7 +170,7 @@ footer div {
 
 footer div a {
     text-decoration: none;
-    font-size:3rem;
+    font-size: 3rem;
     color: #fff;
 }
 
