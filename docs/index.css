@@ -192,15 +192,15 @@ footer div img {
     position: absolute;
     width: 100vw;
     height: 100vh;
-    font-size: 2.6rem;
-    color: var(--gris);
-    font-family: lista;
+    font-size: 2.8rem;
+    color: #fff;
     background-color: #000;
 }
 
 #reproductor>audio {
     margin-top: 2rem;
     filter: invert() brightness(3);
+    zoom: 2;
     width: 70%;
 }
 
