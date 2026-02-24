@@ -25,11 +25,11 @@ body {
     background-color: var(--colorFondo);
     color: white;
     font-family: texto;
-    font-size: 1.8rem;
+    font-size: 2rem;
     height: 100vh;
     display: grid;
     /* Definimos 4 filas: auto, auto, la lista crece (1fr), auto */
-    grid-template-rows: auto auto 1fr auto;
+    grid-template-rows: auto auto auto auto;
     overflow: hidden;
     /* Evita el scroll general de la página */
     user-select: none;
