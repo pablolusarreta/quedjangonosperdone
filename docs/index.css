@@ -29,7 +29,7 @@ body {
     height: 100vh;
     display: grid;
     /* Definimos 4 filas: auto, auto, la lista crece (1fr), auto */
-    grid-template-rows: auto auto auto auto;
+    grid-template-rows: auto auto 1fr 4rem;
     overflow: hidden;
     /* Evita el scroll general de la página */
     user-select: none;
@@ -150,11 +150,15 @@ footer {
 
 /* 4º Pie de página ----------------------------------------------------*/
 footer {
+    position: fixed;
+    bottom: 0;
+    width: 100vw;;
     display: grid;
     /* Tres columnas iguales */
     grid-template-columns: repeat(3, 1fr);
     align-items: center;
     font-size: 0.9rem;
+    background-color: #000;
     text-transform: capitalize;
 }
 
