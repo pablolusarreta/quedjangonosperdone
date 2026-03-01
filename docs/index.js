@@ -18,17 +18,26 @@ const play = (url, tipo, ob) => {
         ob.style.color = 'var(--gris)'
     } else if (tipo === 'video') {
         window.open(url, '_blank')
+    }else if (tipo === 'foto') {
+        amplia(url)
     }
 }
 const reproductorOff = () => {
     reproductor.style.display = "none"
     reproductor.innerHTML = ""
 }
-
+const amplia = img => {
+    ampliacion.innerHTML = `<img src="${img}">`
+    ampliacion.addEventListener('click', () => {
+        ampliacion.style.display = 'none'
+    })
+    ampliacion.style.display = 'flex'
+}
 const $ = ele => document.querySelector(ele)
 const elementos = $('#lista')
 const pie = $('footer')
 const reproductor = $('#reproductor')
+const ampliacion = $('#ampliacion')
 
 const titulo = $('header')
 titulo.addEventListener('click', () => { location.reload() })
@@ -40,7 +49,7 @@ fetch(`datos.json?t=${t}`)
         data.elementos.reverse()
         const DATOS = data
         for (let i in DATOS.elementos) {
-            elementos.innerHTML += `<li id="elemento${[i]}" onclick="play('${DATOS.elementos[i].direccion}.mp3',
+            elementos.innerHTML += `<li id="elemento${[i]}" onclick="play('${DATOS.elementos[i].direccion}',
                 '${DATOS.elementos[i].tipo}',this)" class="elemento">
                 <img src="img/${DATOS.elementos[i].tipo}.webp" alt="·">${DATOS.elementos[i].nombre}</li>`
         }
