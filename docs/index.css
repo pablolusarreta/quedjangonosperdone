@@ -10,7 +10,7 @@
 
 :root {
     --texto: rgb(167, 62, 62);
-    --colorFondo: #0f0000;
+    --colorFondo: #00000f;
     --gris: #666;
 }
 
@@ -76,7 +76,7 @@ footer {
 /* 2º Eslogan ----------------------------------------------------------*/
 .lellenda {
     font-size: 3rem;
-   color:#aa3;
+    color: #aa3;
 }
 
 .lellenda>p>span:nth-child(1) {
@@ -109,7 +109,7 @@ footer {
     list-style: none;
     text-align: center;
     padding-bottom: 12rem;
-background-color: #000;
+    background-color: #000;
     /* Centra el texto de cada título */
 }
 
@@ -120,7 +120,7 @@ background-color: #000;
     /* Alineación vertical perfecta */
     list-style: none;
     /* Opcional: quita el punto de la lista */
-    gap:  6px;
+    gap: 6px;
     padding: 1rem;
     letter-spacing: 0.1rem;
     color: var(--gris);
@@ -202,6 +202,7 @@ footer div img {
     zoom: 2;
     width: 70%;
 }
+
 /* -----AMPLIACION ---------*/
 #ampliacion {
     display: none;
@@ -209,9 +210,9 @@ footer div img {
     align-items: center;
     position: fixed;
     width: 100vw;
-    
+
     min-height: 100vh;
-    background-color:#000;
+    background-color: #000;
     z-index: 100;
 }
 

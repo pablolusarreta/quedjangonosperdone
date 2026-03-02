@@ -51,7 +51,7 @@ fetch(`datos.json?t=${t}`)
         for (let i in DATOS.elementos) {
             elementos.innerHTML += `<li id="elemento${[i]}" onclick="play('${DATOS.elementos[i].direccion}',
                 '${DATOS.elementos[i].tipo}',this)" class="elemento">
-                <img src="img/${DATOS.elementos[i].tipo}.webp" alt="·">${DATOS.elementos[i].nombre}</li>`
+                <img src="img/${DATOS.elementos[i].tipo}.webp" title="${DATOS.elementos[i].tipo}">${DATOS.elementos[i].nombre}</li>`
         }
         for (let i in DATOS.pie) {
             pie.innerHTML += `<div> <img src="img/${DATOS.pie[i].img}.webp"><a href="${DATOS.pie[i].direccion}" target="_blank">${DATOS.pie[i].nombre}</a></div>`
