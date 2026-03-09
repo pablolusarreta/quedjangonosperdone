@@ -17,20 +17,25 @@ const play = (url, tipo, ob) => {
         reproductor.appendChild(audio)
         ob.style.color = 'var(--gris)'
     } else if (tipo === 'video') {
-        window.open(url, '_blank')
+        ampliaVideo(url)
     }else if (tipo === 'foto') {
-        amplia(url)
+        ampliaFoto(url)
     }
 }
 const reproductorOff = () => {
     reproductor.style.display = "none"
     reproductor.innerHTML = ""
 }
-const amplia = img => {
-    ampliacion.innerHTML = `<img src="${img}">`
-    ampliacion.addEventListener('click', () => {
-        ampliacion.style.display = 'none'
-    })
+const ampliaFoto = img => {
+    ampliacion.innerHTML = `<img src="${img}">`   
+    ampliacion.style.display = 'flex'
+}
+const ampliaVideo = url => {
+    ampliacion.innerHTML = `<iframe width="1600" height="900" 
+    src="${url}" title="YouTube video player" frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; 
+    gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+    </iframe>`  
     ampliacion.style.display = 'flex'
 }
 const $ = ele => document.querySelector(ele)
@@ -38,6 +43,10 @@ const elementos = $('#lista')
 const pie = $('footer')
 const reproductor = $('#reproductor')
 const ampliacion = $('#ampliacion')
+ ampliacion.addEventListener('click', () => {
+        ampliacion.innerHTML = ''
+        ampliacion.style.display = 'none'
+    })
 
 const titulo = $('header')
 titulo.addEventListener('click', () => { location.reload() })
@@ -52,9 +61,6 @@ fetch(`datos.json?t=${t}`)
             elementos.innerHTML += `<li id="elemento${[i]}" onclick="play('${DATOS.elementos[i].direccion}',
                 '${DATOS.elementos[i].tipo}',this)" class="elemento">
                 <img src="img/${DATOS.elementos[i].tipo}.webp" title="${DATOS.elementos[i].tipo}">${DATOS.elementos[i].nombre}</li>`
-        }
-        for (let i in DATOS.pie) {
-            pie.innerHTML += `<div> <img src="img/${DATOS.pie[i].img}.webp"><a href="${DATOS.pie[i].direccion}" target="_blank">${DATOS.pie[i].nombre}</a></div>`
         }
     })
 

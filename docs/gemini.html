@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="grupo, musical, gypsy, gipsy, manouche, jazz">
+    <meta http-equiv="Cache-Control" content="no-store" />
+    <meta name="description" content="Página del grupo de jazz">
+    <title>Que Django nos perdone </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/favicon.ico" />
+    <script defer src="codigo.js"></script>
+</head>
+
+<body>
+
+    <nav>
+        <div class="logo"><img src="img/logo.webp" alt="nuestra cabra"></div>
+        <ul class="nav-links">
+            <li><a href="#info">Información</a></li>
+            <li><a href="#temas">Repertorio</a></li>
+            <li><a href="#video">Videos</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <header class="hero">
+        <div class="hero-content">
+            <h1>Que Django nos perdone</h1>
+            <p>Manouche, Jazz, Bossa Nova & Blues</p>
+        </div>
+    </header>
+
+    <section id="info" class="container">
+        <h2>Sobre Nosotros</h2>
+        <div class="info-grid">
+            <div class="info-card">
+                <h3>La Banda</h3>
+                <p>Somos un cuarteto rondando los 60 apasionado por la musica y la improvisación. Llevamos  la
+                    esencia salvando las distancias de los clubes de jazz y blues de los años 30 a la calidez de la música brasileña.</p>
+            </div>
+            <div class="info-card">
+                <h3>Instrumentos</h3>
+                <p>Guitarra acustica y electrica, bateria acustica, bajo electrico y voz, creando una atmósfera rica y sofisticada.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="temas" class="bg-light">
+        <div class="container">
+            <h2>Repertorio</h2>
+            <div id="listaTemas" class="temas-grid">
+                <div class="estilo-col">
+                    <h3>Standars</h3>
+                    <ul id="standars">
+                        <!--/////////////////////-->
+                    </ul>
+                </div>
+                <div class="estilo-col">
+                    <h3>Bossa Nova</h3>
+                    <ul id="bossa">
+                        <!--/////////////////////-->
+                    </ul>
+                </div>
+                <div class="estilo-col">
+                    <h3>Blues & Intemporales</h3>
+                    <ul id="blues">
+                        <!--/////////////////////-->
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="video" class="bg-light">
+        <div class="container">
+            <h2>Videos & Fotos</h2>
+            <div class="temas-grid">
+                <div class="estilo-col">
+                    <h3>Videos</h3>
+                    <ul id="videos">
+                        <!--/////////////////////-->
+                    </ul>
+                </div>
+                <div class="estilo-col">
+                    <h3>Imagenes</h3>
+                    <ul id="fotos">
+                        <!--/////////////////////-->
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+    <footer id="contacto">
+        <div class="container">
+            <h2>Contacto</h2>
+            <p>¿Quieres música en tu evento? ¡Hablemos!</p><br><br>
+            <div class="contact-info">
+                <a href="mailto:quedjangonosperdone@gmail.com">
+                    <img src="img/email.svg">quedjangonosperdone@gmail.com</a><br><br>
+                <a href="tel:34607942427">
+                    <img src="img/telefono.svg"> Teléfono: +34 607 94 24 27</a><br><br>
+                <a href="https://api.whatsapp.com/send?phone=607942427&text=">
+                    <img src="img/whatsapp.svg"> whatsapp: +34 607 94 24 27</a>
+                <!--<p><img src="img/instagram.svg"> Instagram: <a href="#">@tu_banda_musical</a></p>-->
+            </div>
+        </div>
+    </footer>
+    <audio id="reproductor" src=""></audio>
+</body>
+
+</html>
