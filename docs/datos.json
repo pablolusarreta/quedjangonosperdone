@@ -184,6 +184,11 @@
             "nombre": "La Taberna de Egia 27 02 2026",
             "direccion": "FOTOS/La Taberna de Egia 27 02 2026.webp",
             "tipo": "foto"
+        },
+        {
+            "nombre": "Bar Kandela 07 03 2026",
+            "direccion": "https://www.youtube.com/embed/qIvbMGwkj3g?si=DMRrnOpnYoZqygxW",
+            "tipo": "video"
         }
     ]
 }
