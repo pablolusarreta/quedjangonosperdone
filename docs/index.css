@@ -218,10 +218,11 @@ footer div img {
 
 #ampliacion img {
     max-width: 100%;
+    max-height: 80vh;
     height: auto;
     border: 20px solid #fff;
 }
-
+iframe{max-height: 80vh;}
 /* Responsive: En pantallas muy pequeñas, el pie se apila --------------------------------*/
 @media (max-width: 800px) {
     footer {
@@ -231,6 +232,12 @@ footer div img {
 
     .titulo {
         font-size: 1.8rem;
+    }
+
+}
+@media (max-height: 700px) {
+    .titulo{
+        display: none;
     }
 
 }

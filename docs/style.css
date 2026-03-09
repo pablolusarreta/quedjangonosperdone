@@ -105,6 +105,10 @@ nav {
     margin-top: 2rem;
 }
 
+.musica-container {
+    min-height: 80vh;
+}
+
 .info-card, .estilo-col {
     background: #fff;
     padding: 2rem;
@@ -132,9 +136,11 @@ ul li {
     border-bottom: 1px solid #eee;
     transition: color 0.6s;
 }
-ul li:hover{
+
+ul li:hover {
     color: #d4af37;
 }
+
 ul li img {
     vertical-align: text-bottom;
     margin-right: 10px;
@@ -183,3 +189,4 @@ footer a img {
         text-align: center;
     }
 }
+
