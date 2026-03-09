@@ -4,6 +4,7 @@ const standars = $('#standars')
 const bossa = $('#bossa')
 const blues = $('#blues')
 const videos = $('#videos')
+const fotos = $('#fotos')
 const reproductor = $('#reproductor')
 
 
@@ -15,7 +16,14 @@ const listaVideos = () => {
         }
     }
 }
-
+const listaFotos = () => {
+    for (let i in DATOS.elementos) {
+        if (DATOS.elementos[i].tipo === "foto") {
+            fotos.innerHTML += `<li id="elemento${[i]}" onclick="window.open('${DATOS.elementos[i].direccion}',
+                'blank')" class="elemento">${DATOS.elementos[i].nombre}</li>`
+        }
+    }
+}
 const listaStandars = () => {
     for (let i in DATOS.elementos) {
         if (DATOS.elementos[i].tipo === "jazz") {
@@ -45,18 +53,11 @@ const listaBlues = () => {
 }
 
 const play = tema => {
-    reproductor.src = "MP3/" + tema
-    reproductor.play()
+    window.open(`MP3/${tema}`, 'blank')
 }
-window.addEventListener('click', event => {
-    if (!listaTemas.contains(event.target)) {
-        reproductor.pause()
-     }
-})
-
 let DATOS
 const t = new Date().getTime()
-fetch(`temas.json?t=${t}`)
+fetch(`datos.json?t=${t}`)
     .then(response => response.json())
     .then(data => {
         data.elementos.reverse()
@@ -66,4 +67,5 @@ fetch(`temas.json?t=${t}`)
         listaBlues()
         listaBossa()
         listaVideos()
+        listaFotos()
     })
