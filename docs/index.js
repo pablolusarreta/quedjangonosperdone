@@ -15,12 +15,13 @@ const play = (url, tipo, ob) => {
         source.setAttribute("type", 'audio/mpeg')
         audio.appendChild(source)
         reproductor.appendChild(audio)
-        ob.style.color = 'var(--gris)'
+        //
     } else if (tipo === 'video') {
         ampliaVideo(url)
     } else if (tipo === 'foto') {
         ampliaFoto(url)
     }
+    ob.style.color = 'var(--gris)'
 }
 const reproductorOff = () => {
     reproductor.style.display = "none"

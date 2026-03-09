@@ -185,25 +185,5 @@
             "direccion": "FOTOS/La Taberna de Egia 27 02 2026.webp",
             "tipo": "foto"
         }
-    ],
-    "pie": [
-        {
-            "nombre": "llamar",
-            "direccion": "tel:34607942427",
-            "img": "telefono",
-            "pc": false
-        },
-        {
-            "nombre": "chatear",
-            "direccion": "https://api.whatsapp.com/send?phone=607942427&text=",
-            "img": "whatsapp",
-            "pc": false
-        },
-        {
-            "nombre": "escribir",
-            "direccion": "mailto:pablo.lusarreta@gmail.com?subject=Escrito desde la web",
-            "img": "email",
-            "pc": true
-        }
     ]
 }
