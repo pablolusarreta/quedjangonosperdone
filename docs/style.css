@@ -64,14 +64,18 @@ nav {
 .nav-links {
     display: flex;
     list-style: none;
+    
 }
-
+.nav-links li{
+        border :none;
+}
 .nav-links li a {
     color: #fff;
     text-decoration: none;
-    margin-left: 60px;
-    font-weight: 600;
-    transition: color 0.3s;
+    margin-left: 5rem;
+    font-weight: 400;
+
+    transition: color 0.5s;
 }
 
 .nav-links li a:hover {
