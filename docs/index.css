@@ -222,7 +222,29 @@ footer div img {
     height: auto;
     border: 20px solid #fff;
 }
-iframe{max-height: 80vh;}
+
+iframe {
+    max-height: 80vh;
+}
+
+#masinfo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top:1rem;
+    right: 1rem;
+    width:4rem;
+    height: 4rem;
+    border-radius: 50%;
+    background-color: #fff;
+    color: var(--texto);
+    font-size: 20px;
+    font-weight: 900;
+}
+#masinfo span{
+    font-size: 50px;
+}
 /* Responsive: En pantallas muy pequeñas, el pie se apila --------------------------------*/
 @media (max-width: 800px) {
     footer {
@@ -235,8 +257,9 @@ iframe{max-height: 80vh;}
     }
 
 }
+
 @media (max-height: 700px) {
-    .titulo{
+    .titulo {
         display: none;
     }
 

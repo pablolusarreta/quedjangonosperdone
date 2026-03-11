@@ -1,3 +1,9 @@
+// si es un ordenador redirecciona 
+const redirige = () => { location.href = "web.html" }
+if (!(navigator.userAgentData && navigator.userAgentData.mobile)) {
+    redirige()
+}
+///////////////////////////////////////////////////////////////////////////////////////////
 const play = (url, tipo, ob) => {
     if (tipo === "jazz" || tipo === "bossa" || tipo === "blues") {
         if (reproductor.firstChild) reproductor.innerHTML = ""
@@ -49,16 +55,8 @@ ampliacion.addEventListener('click', () => {
     ampliacion.innerHTML = ''
     ampliacion.style.display = 'none'
 })
-/*screen.orientation.addEventListener("change", () => {
-    const videoYT = $('#videoYT')
-    if (screen.orientation.type.includes('landscape')) {
-        videoYT.setAttribute('width', '800')
-        videoYT.setAttribute('height', '450')
-    } else {
-        videoYT.setAttribute('width', '1600')
-        videoYT.setAttribute('height', '900')
-    }
-});*/
+const info = $('#masinfo')
+info.addEventListener('click', redirige)
 let horizontal = true
 const pantalla = () => {
     const videoYT = $('#videoYT')
