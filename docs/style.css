@@ -27,7 +27,9 @@ body {
 h1, h2, h3 {
     font-family: lista;
 }
-
+#info,#temas,#video,#contacto{
+    scroll-margin-top: 5rem;
+}
 .container {
     max-width: 1100px;
     margin: auto;
@@ -49,7 +51,6 @@ h1, h2, h3 {
 nav {
     background: #1a1a1a;
     font-size: 1.3rem;
-    ;
     color: #fff;
     display: flex;
     justify-content: space-between;
