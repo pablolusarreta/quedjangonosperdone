@@ -1,5 +1,10 @@
 {
     "elementos": [
+         {
+            "nombre": "⬜&nbsp;&nbsp;&nbsp;&nbsp;Cartel genérico",
+            "direccion": "FOTOS/CARTEL.webp",
+            "tipo": "foto"
+        },
         {
             "nombre": "Vídeo Etxeberri Plaza 09 2023",
             "direccion": "https://www.youtube.com/embed/d5TaasrK3go?si=SNbkQRNnFU6O9wEz",
