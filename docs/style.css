@@ -94,12 +94,14 @@ nav {
 
 .hero h1 {
     font-size: 6em;
-   margin-bottom: 10px;
+    margin-bottom: 10px;
 }
+
 .hero p {
     font-size: 2em;
-    
+
 }
+
 /* Grid de Información y Temas */
 .info-grid, .temas-grid, .video-grid {
     display: grid;
@@ -192,4 +194,3 @@ footer a img {
         text-align: center;
     }
 }
-

@@ -234,16 +234,21 @@ iframe {
     position: fixed;
     top:1rem;
     right: 1rem;
-    width:4rem;
-    height: 4rem;
+    width:6rem;
+    height: 6rem;
     border-radius: 50%;
     background-color: #fff;
     color: var(--texto);
-    font-size: 20px;
+    font-size: 2rem;
     font-weight: 900;
+    opacity:0.9;
+    transition: opacity 1s;
 }
 #masinfo span{
-    font-size: 50px;
+    font-size: 4rem;
+}
+#masinfo:hover{
+    opacity: 1;
 }
 /* Responsive: En pantallas muy pequeñas, el pie se apila --------------------------------*/
 @media (max-width: 800px) {
@@ -262,5 +267,12 @@ iframe {
     .titulo {
         display: none;
     }
+    .lellenda p {
+        font-size: 2.4rem;
+    }footer div a {
+ 
+    font-size: 1.8rem;
+
+}
 
 }
