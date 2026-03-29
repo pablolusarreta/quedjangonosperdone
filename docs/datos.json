@@ -199,6 +199,11 @@
             "nombre": "Bar Kandela 07 03 2026",
             "direccion": "https://www.youtube.com/embed/qIvbMGwkj3g?si=DMRrnOpnYoZqygxW",
             "tipo": "video"
+        },
+        {
+            "nombre": "Jalgi Kafe antzokia 28 03 2026",
+            "direccion": "https://www.youtube.com/embed/PsblNAkyeqw",
+            "tipo": "video"
         }
     ]
 }
