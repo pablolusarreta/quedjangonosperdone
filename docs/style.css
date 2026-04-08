@@ -46,7 +46,8 @@ h1, h2, h3 {
 }
 
 .logo img {
-    width: 3rem;
+    margin-top:3rem;
+    width: 5rem;
 }
 
 /* Navegación */
