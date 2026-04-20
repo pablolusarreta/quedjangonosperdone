@@ -15,6 +15,10 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: lista;
     color: #333;
@@ -46,9 +50,9 @@ h1, h2, h3 {
 }
 
 .logo img {
-    margin-top:3rem;
+    margin-top: 3rem;
     width: 5rem;
-    filter:invert(0.95);
+    filter: invert(0.95);
 
 }
 
@@ -211,6 +215,9 @@ footer a img {
         text-align: center;
     }
 }
-@media (max-width: 1000px) { .hero h1 {
+
+@media (max-width: 1000px) {
+    .hero h1 {
         font-size: 3rem;
-    }}
+    }
+}
