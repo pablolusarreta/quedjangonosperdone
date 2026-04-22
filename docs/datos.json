@@ -209,6 +209,11 @@
             "nombre": "Jalgi Kafe antzokia 28 03 2026",
             "direccion": "https://www.youtube.com/embed/PsblNAkyeqw",
             "tipo": "video"
+        },
+        {
+            "nombre": "⏵&nbsp;&nbsp; Canal Youtube",
+            "direccion": "https://www.youtube.com/@QueDjangonosperdone",
+            "tipo": "video"
         }
     ]
 }
