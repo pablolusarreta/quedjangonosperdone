@@ -1,18 +1,28 @@
 {
     "elementos": [
         {
-            "nombre": "⬜&nbsp;&nbsp;&nbsp;&nbsp;Cartel genérico",
+            "nombre": "Cartel genérico &nbsp;&#x1f583;",
             "direccion": "FOTOS/CARTEL.webp",
             "tipo": "foto"
         },
         {
-            "nombre": "⬜&nbsp;&nbsp;&nbsp;&nbsp;La Ccabra II. El golpe (texto)",
+            "nombre": " La Cabra II. El golpe &nbsp;&#x1f5ce",
             "direccion": "FOTOS/La Cabra II.webp",
             "tipo": "foto"
         },
         {
-            "nombre": "⬜&nbsp;&nbsp;&nbsp;&nbsp;Bistro fada (texto)",
+            "nombre": "Bistro fada &nbsp;&#x1f5ce",
             "direccion": "FOTOS/Bistro fada.webp",
+            "tipo": "foto"
+        },
+        {
+            "nombre": "La Taberna de Egia 27 02 2026",
+            "direccion": "FOTOS/La Taberna de Egia 27 02 2026.webp",
+            "tipo": "foto"
+        },
+        {
+            "nombre": "Bar Kandela Urnieta 07 03 2026",
+            "direccion": "FOTOS/Bar Kandela Urnieta 07 03 2026.webp",
             "tipo": "foto"
         },
         {
@@ -166,39 +176,29 @@
             "tipo": "jazz"
         },
         {
-            "nombre": "⟳&nbsp;&nbsp; Stormy Monday 03 2025",
+            "nombre": "Stormy Monday 03 2025 <span>360º</span>",
             "direccion": "https://youtu.be/NY-ss40A04U?si=-zBBUhhtRdyUInmF",
             "tipo": "video"
         },
         {
-            "nombre": "⟳&nbsp;&nbsp; Manha de Carnaval 06 2025",
+            "nombre": "Manha de Carnaval 06 2025 <span>360º</span>",
             "direccion": "https://youtu.be/ZNVkix2gX8o?si=rTMssm7I9U-qawGd",
             "tipo": "video"
         },
         {
-            "nombre": "⟳&nbsp;&nbsp; Comes Love 03 2025",
+            "nombre": "Comes Love 03 2025 <span>360º</span>",
             "direccion": "https://youtu.be/Rt8FhHFPEEQ?si=n_p4Fch_FCp7Eq4h",
             "tipo": "video"
         },
         {
-            "nombre": "⟳&nbsp;&nbsp; Isn't She Lovely 04 2025",
+            "nombre": "Isn't She Lovely 04 2025 <span>360º</span>",
             "direccion": "https://youtu.be/GhwZAAn-7G8",
             "tipo": "video"
         },
         {
-            "nombre": "⟳&nbsp;&nbsp; Lobo López 03 2025",
+            "nombre": "Lobo López 03 2025 <span>360º</span>",
             "direccion": "https://youtu.be/u2oPkEvLrfw?si=nkpAfCwgM2Lvp6Yf",
             "tipo": "video"
-        },
-        {
-            "nombre": "La Taberna de Egia 27 02 2026",
-            "direccion": "FOTOS/La Taberna de Egia 27 02 2026.webp",
-            "tipo": "foto"
-        },
-        {
-            "nombre": "Bar Kandela Urnieta 07 03 2026",
-            "direccion": "FOTOS/Bar Kandela Urnieta 07 03 2026.webp",
-            "tipo": "foto"
         },
         {
             "nombre": "Bar Kandela 07 03 2026",
@@ -211,7 +211,7 @@
             "tipo": "video"
         },
         {
-            "nombre": "⏵&nbsp;&nbsp; Canal Youtube",
+            "nombre": " Canal YouTube <img src='img/yt.webp'>",
             "direccion": "https://www.youtube.com/@QueDjangonosperdone",
             "tipo": "video"
         }

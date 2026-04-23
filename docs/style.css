@@ -164,8 +164,19 @@ ul li:hover {
 }
 
 ul li img {
-    vertical-align: text-bottom;
-    margin-right: 10px;
+    vertical-align:baseline;
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+    margin-bottom: -4px;
+}
+
+ul>li>span {
+    padding: 0 0.5rem;
+    font-size: 0.8rem;
+    color: #fff;
+    vertical-align: baseline;
+    margin-left: 0.5rem;
+    background-color: #ccc;
 }
 
 /* Contacto */
