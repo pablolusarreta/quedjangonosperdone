@@ -176,6 +176,11 @@
             "tipo": "jazz"
         },
         {
+            "nombre": "Blue Bossa 04 2026",
+            "direccion": "Blue Bossa electrica 04 2026.mp3",
+            "tipo": "bossa"
+        },
+        {
             "nombre": "Stormy Monday 03 2025 <span>360º</span>",
             "direccion": "https://youtu.be/NY-ss40A04U?si=-zBBUhhtRdyUInmF",
             "tipo": "video"
