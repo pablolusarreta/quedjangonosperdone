@@ -30,149 +30,146 @@
             "direccion": "https://www.youtube.com/embed/d5TaasrK3go?si=SNbkQRNnFU6O9wEz",
             "tipo": "video"
         },
-        
-   {
-        "nombre": "After youve gone 10 2023 <br><small>Turner Layton</small>",
-        "direccion": "After youve gone 26.10.2023.mp3",
-        "tipo": "jazz"
-    },
-    {
-        "nombre": "All off me 02 2019 <br><small>Gerald Marks & Seymour Simons</small>",
-        "direccion": "All off me 01 02 2019.mp3",
-        "tipo": "jazz"
-    },
-    {
-        "nombre": "Autum leaves 10 2018 <br><small>Joseph Kosma</small>",
-        "direccion": "Autum leaves 01.10.2018.mp3",
-        "tipo": "jazz"
-    },
-    {
-        "nombre": "Bistro fada 05 2019 <br><small>Stephane Wrembel</small>",
-        "direccion": "bistro fada 2019 02 05.mp3",
-        "tipo": "jazz"
-    },
-    {
-        "nombre": "Bosa Dorado 01 2022 <br><small>The Rosenberg Trio</small>",
-        "direccion": "Bosa Dorado 03 01 2022.mp3",
-        "tipo": "jazz"
-    },
-    {
-        "nombre": "Fly me to the Moon 11 2022 <br><small>Bart Howard</small>",
-        "direccion": "Fly me to the Moon 14.11.2022.mp3",
-        "tipo": "Blues"
-    },
-    {
-        "nombre": "For sephora 10 2018 <br><small>Stochelo Rosenberg</small>",
-        "direccion": "For sephora 15.10.2018.mp3",
-        "tipo": "jazz"
-    },
-    {
-        "nombre": "Garota de Ipanema  10 2018 <br><small>Antônio Carlos Jobim</small>",
-        "direccion": "Garota de Ipanema 01.10.2018.mp3",
-        "tipo": "bossa"
-    },
-    {
-        "nombre": "Isn't she lovely 10 2018 <br><small>Stevie Wonder</small>",
-        "direccion": "isn.t she lovely 01.10.2018.mp3",
-        "tipo": "blues"
-    },
-    {
-        "nombre": "It Don't Mean A Thing 02 2019 <br><small>Duke Ellington</small>",
-        "direccion": "It Don.t Mean A Thing 05 02 2019.mp3",
-        "tipo": "jazz"
-    },
-    {
-        "nombre": "Lobo Lopez 02 2022 <br><small>Kiko Veneno</small>",
-        "direccion": "Lobo Lopez 2022.02.22.mp3",
-        "tipo": "blues"
-    },
-    {
-        "nombre": "Mañana de carnaval 10 2018 <br><small>Luiz Bonfá</small>",
-        "direccion": "Manana de carnaval 22.10.2018.mp3",
-        "tipo": "bossa"
-    },
-    {
-        "nombre": "Nuages 10 2022 <br><small>Django Reinhardt</small>",
-        "direccion": "Nuages 25 10 2022.mp3",
-        "tipo": "jazz"
-    },
-    {
-        "nombre": "Si tu savais 10 2018 <br><small>Georges Ulmer</small>",
-        "direccion": "Si tu savais 01.10.2018.mp3",
-        "tipo": "jazz"
-    },
-    {
-        "nombre": "Tarde em Itapoa 02 2022 <br><small>Toquinho & Vinícius de Moraes</small>",
-        "direccion": "Tarde em Itapoa 07.02.2022.mp3",
-        "tipo": "bossa"
-    },
-    {
-        "nombre": "Wave 01 22 <br><small>Antônio Carlos Jobim</small>",
-        "direccion": "wave 24.01.22.mp3",
-        "tipo": "bossa"
-    },
-
-    {
-        "nombre": "Cantaloupe Island 02 2025 <br><small>Herbie Hancock</small>",
-        "direccion": "Cantaloupe island 10.02.2025.mp3",
-        "tipo": "jazz"
-    },
-    {
-        "nombre": "Place du Tertre 02 2025 <br><small>Bireli Lagrene</small>",
-        "direccion": "Place du Tertre 10.02.2025.mp3",
-        "tipo": "jazz"
-    },
-    {
-        "nombre": "Freedom trio 02 2025 <br><small>Ritchie Havens / Robben Ford</small>",
-        "direccion": "Freedom 14.02.2025.mp3",
-        "tipo": "blues"
-    },
-    {
-        "nombre": "On that morning trio 03 2025 <br><small>Robben Ford</small>",
-        "direccion": "On that morning trio. 05.03.2025.mp3",
-        "tipo": "blues"
-    },
-    {
-        "nombre": "Cannonball shuffle trio 03 2025 <br><small>Robben Ford</small>",
-        "direccion": "Cannonball shuffle trio 03 2025.mp3",
-        "tipo": "blues"
-    },
-    {
-        "nombre": "Manhana de Carnaval 03 2025 <br><small>Luiz Bonfá</small>",
-        "direccion": "Mañana de Carnaval 03 2025.mp3",
-        "tipo": "bossa"
-    },
-    {
-        "nombre": "Comes love 03 2025 <br><small>Sam H. Stept</small>",
-        "direccion": "Comes love cuarteto 03 2025.mp3",
-        "tipo": "jazz"
-    },
-    {
-        "nombre": "Stormy monday 03 2025 <br><small>T-Bone Walker</small>",
-        "direccion": "Stormy monday 03 2025.mp3",
-        "tipo": "blues"
-    },
-    {
-        "nombre": "Seule ce soir cuarteto 03 2025 <br><small>Casares / Durand / Contet</small>",
-        "direccion": "Seul ce soir cuarteto 03 2025.mp3",
-        "tipo": "jazz"
-    },
-    {
-        "nombre": "All of me cuarteto 03 2025 <br><small>Marks & Simons</small>",
-        "direccion": "All off my cuarteto 03 2025.mp3",
-        "tipo": "jazz"
-    },
-    {
-        "nombre": "Blue Bossa 04 2026 <br><small>Kenny Dorham</small>",
-        "direccion": "Blue Bossa electrica 04 2026.mp3",
-        "tipo": "bossa"
-    },
-    {
-        "nombre": "All Blues 04 2026 <br><small>Miles Davis</small>",
-        "direccion": "All Blues 04 2026.mp3",
-        "tipo": "blues"
-    },
-
+        {
+            "nombre": "After youve gone 10 2023 <br><small>Turner Layton</small>",
+            "direccion": "After youve gone 26.10.2023.mp3",
+            "tipo": "jazz"
+        },
+        {
+            "nombre": "All off me 02 2019 <br><small>Gerald Marks & Seymour Simons</small>",
+            "direccion": "All off me 01 02 2019.mp3",
+            "tipo": "jazz"
+        },
+        {
+            "nombre": "Autum leaves 10 2018 <br><small>Joseph Kosma</small>",
+            "direccion": "Autum leaves 01.10.2018.mp3",
+            "tipo": "jazz"
+        },
+        {
+            "nombre": "Bistro fada 05 2019 <br><small>Stephane Wrembel</small>",
+            "direccion": "bistro fada 2019 02 05.mp3",
+            "tipo": "jazz"
+        },
+        {
+            "nombre": "Bosa Dorado 01 2022 <br><small>The Rosenberg Trio</small>",
+            "direccion": "Bosa Dorado 03 01 2022.mp3",
+            "tipo": "jazz"
+        },
+        {
+            "nombre": "Fly me to the Moon 11 2022 <br><small>Bart Howard</small>",
+            "direccion": "Fly me to the Moon 14.11.2022.mp3",
+            "tipo": "Blues"
+        },
+        {
+            "nombre": "For sephora 10 2018 <br><small>Stochelo Rosenberg</small>",
+            "direccion": "For sephora 15.10.2018.mp3",
+            "tipo": "jazz"
+        },
+        {
+            "nombre": "Garota de Ipanema  10 2018 <br><small>Antônio Carlos Jobim</small>",
+            "direccion": "Garota de Ipanema 01.10.2018.mp3",
+            "tipo": "bossa"
+        },
+        {
+            "nombre": "Isn't she lovely 10 2018 <br><small>Stevie Wonder</small>",
+            "direccion": "isn.t she lovely 01.10.2018.mp3",
+            "tipo": "blues"
+        },
+        {
+            "nombre": "It Don't Mean A Thing 02 2019 <br><small>Duke Ellington</small>",
+            "direccion": "It Don.t Mean A Thing 05 02 2019.mp3",
+            "tipo": "jazz"
+        },
+        {
+            "nombre": "Lobo Lopez 02 2022 <br><small>Kiko Veneno</small>",
+            "direccion": "Lobo Lopez 2022.02.22.mp3",
+            "tipo": "blues"
+        },
+        {
+            "nombre": "Mañana de carnaval 10 2018 <br><small>Luiz Bonfá</small>",
+            "direccion": "Manana de carnaval 22.10.2018.mp3",
+            "tipo": "bossa"
+        },
+        {
+            "nombre": "Nuages 10 2022 <br><small>Django Reinhardt</small>",
+            "direccion": "Nuages 25 10 2022.mp3",
+            "tipo": "jazz"
+        },
+        {
+            "nombre": "Si tu savais 10 2018 <br><small>Georges Ulmer</small>",
+            "direccion": "Si tu savais 01.10.2018.mp3",
+            "tipo": "jazz"
+        },
+        {
+            "nombre": "Tarde em Itapoa 02 2022 <br><small>Toquinho & Vinícius de Moraes</small>",
+            "direccion": "Tarde em Itapoa 07.02.2022.mp3",
+            "tipo": "bossa"
+        },
+        {
+            "nombre": "Wave 01 2022 <br><small>Antônio Carlos Jobim</small>",
+            "direccion": "wave 24.01.22.mp3",
+            "tipo": "bossa"
+        },
+        {
+            "nombre": "Cantaloupe Island 02 2025 <br><small>Herbie Hancock</small>",
+            "direccion": "Cantaloupe island 10.02.2025.mp3",
+            "tipo": "jazz"
+        },
+        {
+            "nombre": "Place du Tertre 02 2025 <br><small>Bireli Lagrene</small>",
+            "direccion": "Place du Tertre 10.02.2025.mp3",
+            "tipo": "jazz"
+        },
+        {
+            "nombre": "Freedom trio 02 2025 <br><small>Ritchie Havens / Robben Ford</small>",
+            "direccion": "Freedom 14.02.2025.mp3",
+            "tipo": "blues"
+        },
+        {
+            "nombre": "On that morning trio 03 2025 <br><small>Robben Ford</small>",
+            "direccion": "On that morning trio. 05.03.2025.mp3",
+            "tipo": "blues"
+        },
+        {
+            "nombre": "Cannonball shuffle trio 03 2025 <br><small>Robben Ford</small>",
+            "direccion": "Cannonball shuffle trio 03 2025.mp3",
+            "tipo": "blues"
+        },
+        {
+            "nombre": "Manhana de Carnaval 03 2025 <br><small>Luiz Bonfá</small>",
+            "direccion": "Mañana de Carnaval 03 2025.mp3",
+            "tipo": "bossa"
+        },
+        {
+            "nombre": "Comes love 03 2025 <br><small>Sam H. Stept</small>",
+            "direccion": "Comes love cuarteto 03 2025.mp3",
+            "tipo": "jazz"
+        },
+        {
+            "nombre": "Stormy monday 03 2025 <br><small>T-Bone Walker</small>",
+            "direccion": "Stormy monday 03 2025.mp3",
+            "tipo": "blues"
+        },
+        {
+            "nombre": "Seule ce soir cuarteto 03 2025 <br><small>Casares / Durand / Contet</small>",
+            "direccion": "Seul ce soir cuarteto 03 2025.mp3",
+            "tipo": "jazz"
+        },
+        {
+            "nombre": "All of me cuarteto 03 2025 <br><small>Marks & Simons</small>",
+            "direccion": "All off my cuarteto 03 2025.mp3",
+            "tipo": "jazz"
+        },
+        {
+            "nombre": "Blue Bossa 04 2026 <br><small>Kenny Dorham</small>",
+            "direccion": "Blue Bossa electrica 04 2026.mp3",
+            "tipo": "bossa"
+        },
+        {
+            "nombre": "All Blues 04 2026 <br><small>Miles Davis</small>",
+            "direccion": "All Blues 04 2026.mp3",
+            "tipo": "blues"
+        },
         {
             "nombre": "Stormy Monday 03 2025 <span>360º</span>",
             "direccion": "https://youtu.be/NY-ss40A04U?si=-zBBUhhtRdyUInmF",
