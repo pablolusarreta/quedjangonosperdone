@@ -205,9 +205,14 @@
             "direccion": "https://www.youtube.com/embed/PsblNAkyeqw",
             "tipo": "video"
         },
-         {
+        {
             "nombre": "Hiru Taberna 19 06 2026",
             "direccion": "https://youtu.be/8CkT9XRykqg",
+            "tipo": "video"
+        },
+        {
+            "nombre": "URNIETA San Joan Plaza - Ermita 06 2026",
+            "direccion": "https://youtu.be/jRRBqejLVGI",
             "tipo": "video"
         },
         {
