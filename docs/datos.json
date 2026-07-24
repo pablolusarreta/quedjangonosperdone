@@ -6,6 +6,11 @@
             "tipo": "foto"
         },
         {
+            "nombre": "Santa Korda &nbsp;&#x1f5ce",
+            "direccion": "FOTOS/Santa Korda.webp",
+            "tipo": "foto"
+        },
+        {
             "nombre": " La Cabra II. El golpe &nbsp;&#x1f5ce",
             "direccion": "FOTOS/La Cabra II.webp",
             "tipo": "foto"
@@ -213,6 +218,11 @@
         {
             "nombre": "URNIETA San Joan Plaza - Ermita 06 2026",
             "direccion": "https://youtu.be/jRRBqejLVGI",
+            "tipo": "video"
+        },
+        {
+            "nombre": "Ganbara Taberna - matinal 19 07 2026",
+            "direccion": "https://youtu.be/0cKeQLrCp00",
             "tipo": "video"
         },
         {
