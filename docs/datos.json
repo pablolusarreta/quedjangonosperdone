@@ -63,7 +63,12 @@
         {
             "nombre": "Fly me to the Moon 11 2022 <br><small>Bart Howard</small>",
             "direccion": "Fly me to the Moon 14.11.2022.mp3",
-            "tipo": "Blues"
+            "tipo": "blues"
+        },
+        {
+            "nombre": "My way 05 2026<br><small>Jacques Revaux & Claude François</small>",
+            "direccion": "My way 05 2026.mp3",
+            "tipo": "blues"
         },
         {
             "nombre": "For sephora 10 2018 <br><small>Stochelo Rosenberg</small>",
