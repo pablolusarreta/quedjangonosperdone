@@ -24,11 +24,11 @@ body {
     color: #333;
     line-height: 1.6;
     background-color: #f9e5e5;
-   /* */
+    /* */
     background-image: url('img/fondo.png');
-    background-repeat: repeat; 
+    background-repeat: repeat;
     background-position: top left;
-    
+
     user-select: none;
 }
 
@@ -208,6 +208,38 @@ footer h2 {
     color: #eee;
 }
 
+/* Contenedor principal con Flexbox */
+.contact-info {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    width: 100%;
+}
+
+.contact-info a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    color: #d4af37;
+    flex: 1 1 240px;
+    box-sizing: border-box;
+    padding: 0;
+    width: 250px;
+    max-height: 50px;
+    text-decoration: none;
+    border-radius: 6px;
+}
+
+/* Estructura de la imagen dentro del enlace */
+.contact-info a img {
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+    flex-shrink: 0;
+}
+
+/*
 footer a {
     color: #d4af37;
     text-decoration: none;
@@ -218,14 +250,13 @@ footer a img {
     width: 24px;
     margin-right: 10px;
 }
-
+*/
 /* Media Queries para Móviles */
 @media (max-width: 768px) {
     .nav-links {
         display: none;
     }
 
-    /* Simplificación para el ejemplo */
     .hero h1 {
         font-size: 2.1rem;
     }
@@ -242,6 +273,7 @@ footer a img {
         width: 100vw;
         text-align: center;
     }
+
 }
 
 @media (max-width: 1000px) {
