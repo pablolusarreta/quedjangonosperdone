@@ -102,9 +102,9 @@ nav {
 /* Hero Section */
 .hero {
     background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-        url('img/portada2026.webp');
+        url('img/imgFondo.webp');
     background-size: cover;
-    background-position: center;
+    background-position:bottom;
     height: 60vh;
     display: flex;
     align-items: center;
