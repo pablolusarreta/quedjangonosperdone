@@ -101,7 +101,7 @@ nav {
 
 /* Hero Section */
 .hero {
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)),
         url('img/imgFondo.webp');
     background-size: cover;
     background-position:bottom;
