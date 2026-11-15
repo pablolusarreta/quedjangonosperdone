@@ -104,7 +104,7 @@ nav {
     background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)),
         url('img/imgFondo.webp');
     background-size: cover;
-    background-position:bottom;
+    background-position: bottom;
     height: 60vh;
     display: flex;
     align-items: center;
@@ -120,7 +120,6 @@ nav {
 
 .hero p {
     font-size: 2em;
-
 }
 
 /* Grid de Información y Temas */
@@ -135,11 +134,26 @@ nav {
     min-height: 80vh;
 }
 
-.info-card, .estilo-col {
+.info-card, .estilo-col, .estilo-col-lista {
     background: #fff;
     padding: 2rem;
     border-radius: 8px;
     box-shadow: 0 6px 15px rgba(0, 0, 0, 0.6);
+}
+
+.estilo-col-lista {
+    font-size: 1.4em;
+    text-align: center;
+}
+
+.estilo-col-lista>span {
+    font-size: 0.7em;
+    float: right;
+    color: #999;
+}
+
+.estilo-col-lista>ul li:hover {
+    color: initial;
 }
 
 .bg-light {
