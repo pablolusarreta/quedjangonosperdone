@@ -3,227 +3,272 @@
         {
             "nombre": "Cartel genérico &nbsp;&#x1f583;",
             "direccion": "FOTOS/CARTEL.webp",
-            "tipo": "foto"
+            "tipo": "foto",
+            "visible": 1
         },
         {
             "nombre": "Santa Korda &nbsp;&#x1f5ce",
             "direccion": "FOTOS/Santa Korda.webp",
-            "tipo": "foto"
+            "tipo": "foto",
+            "visible": 1
         },
         {
             "nombre": " La Cabra II. El golpe &nbsp;&#x1f5ce",
             "direccion": "FOTOS/La Cabra II.webp",
-            "tipo": "foto"
+            "tipo": "foto",
+            "visible": 1
         },
         {
             "nombre": "Bistro fada &nbsp;&#x1f5ce",
             "direccion": "FOTOS/Bistro fada.webp",
-            "tipo": "foto"
+            "tipo": "foto",
+            "visible": 1
         },
         {
             "nombre": "La Taberna de Egia 27 02 2026",
             "direccion": "FOTOS/La Taberna de Egia 27 02 2026.webp",
-            "tipo": "foto"
+            "tipo": "foto",
+            "visible": 1
         },
         {
             "nombre": "Bar Kandela Urnieta 07 03 2026",
             "direccion": "FOTOS/Bar Kandela Urnieta 07 03 2026.webp",
-            "tipo": "foto"
+            "tipo": "foto",
+            "visible": 1
         },
         {
             "nombre": "Vídeo Etxeberri Plaza 09 2023",
             "direccion": "https://www.youtube.com/embed/d5TaasrK3go?si=SNbkQRNnFU6O9wEz",
-            "tipo": "video"
+            "tipo": "video",
+            "visible": 1
         },
         {
             "nombre": "After youve gone 10 2023 <br><small>Turner Layton</small>",
             "direccion": "After youve gone 26.10.2023.mp3",
-            "tipo": "jazz"
+            "tipo": "jazz",
+            "visible": 0
         },
         {
             "nombre": "All off me 02 2019 <br><small>Gerald Marks & Seymour Simons</small>",
             "direccion": "All off me 01 02 2019.mp3",
-            "tipo": "jazz"
+            "tipo": "jazz",
+            "visible": 0
         },
         {
             "nombre": "Autum leaves 10 2018 <br><small>Joseph Kosma</small>",
             "direccion": "Autum leaves 01.10.2018.mp3",
-            "tipo": "jazz"
+            "tipo": "jazz",
+            "visible": 0
         },
         {
             "nombre": "Bistro Fada 05 2026 <br><small>Stephane Wrembel</small>",
             "direccion": "Bistro Fada 05 2026.mp3",
-            "tipo": "jazz"
+            "tipo": "jazz",
+            "visible": 1
         },
         {
             "nombre": "Bosa Dorado 01 2022 <br><small>The Rosenberg Trio</small>",
             "direccion": "Bosa Dorado 03 01 2022.mp3",
-            "tipo": "jazz"
+            "tipo": "jazz",
+            "visible": 1
         },
         {
             "nombre": "Fly me to the Moon 11 2022 <br><small>Bart Howard</small>",
             "direccion": "Fly me to the Moon 14.11.2022.mp3",
-            "tipo": "blues"
+            "tipo": "blues",
+            "visible": 1
         },
         {
             "nombre": "My way 05 2026<br><small>Jacques Revaux & Claude François</small>",
             "direccion": "My way 05 2026.mp3",
-            "tipo": "blues"
+            "tipo": "blues",
+            "visible": 1
         },
         {
             "nombre": "For sephora 10 2018 <br><small>Stochelo Rosenberg</small>",
             "direccion": "For sephora 15.10.2018.mp3",
-            "tipo": "jazz"
+            "tipo": "jazz",
+            "visible": 1
         },
         {
             "nombre": "Garota de Ipanema  10 2018 <br><small>Antônio Carlos Jobim</small>",
             "direccion": "Garota de Ipanema 01.10.2018.mp3",
-            "tipo": "bossa"
+            "tipo": "bossa",
+            "visible": 0
         },
         {
             "nombre": "Isn't she lovely 10 2018 <br><small>Stevie Wonder</small>",
             "direccion": "isn.t she lovely 01.10.2018.mp3",
-            "tipo": "blues"
+            "tipo": "blues",
+            "visible": 1
         },
         {
             "nombre": "It Don't Mean A Thing 02 2019 <br><small>Duke Ellington</small>",
             "direccion": "It Don.t Mean A Thing 05 02 2019.mp3",
-            "tipo": "jazz"
+            "tipo": "jazz",
+            "visible": 0
         },
         {
             "nombre": "Lobo Lopez 02 2022 <br><small>Kiko Veneno</small>",
             "direccion": "Lobo Lopez 2022.02.22.mp3",
-            "tipo": "blues"
+            "tipo": "blues",
+            "visible": 0
         },
         {
             "nombre": "Mañana de carnaval 10 2018 <br><small>Luiz Bonfá</small>",
             "direccion": "Manana de carnaval 22.10.2018.mp3",
-            "tipo": "bossa"
+            "tipo": "bossa",
+            "visible": 1
         },
         {
             "nombre": "Nuages 10 2022 <br><small>Django Reinhardt</small>",
             "direccion": "Nuages 25 10 2022.mp3",
-            "tipo": "jazz"
+            "tipo": "jazz",
+            "visible": 1
         },
         {
             "nombre": "Si tu savais 10 2018 <br><small>Georges Ulmer</small>",
             "direccion": "Si tu savais 01.10.2018.mp3",
-            "tipo": "jazz"
+            "tipo": "jazz",
+            "visible":0
         },
         {
             "nombre": "Tarde em Itapoa 02 2022 <br><small>Toquinho & Vinícius de Moraes</small>",
             "direccion": "Tarde em Itapoa 07.02.2022.mp3",
-            "tipo": "bossa"
+            "tipo": "bossa",
+            "visible": 0
         },
         {
             "nombre": "Wave 05 2026 <br><small>Antônio Carlos Jobim</small>",
             "direccion": "Wave 05 2026.mp3",
-            "tipo": "bossa"
+            "tipo": "bossa",
+            "visible": 1
         },
         {
             "nombre": "Cantaloupe Island 02 2025 <br><small>Herbie Hancock</small>",
             "direccion": "Cantaloupe island 10.02.2025.mp3",
-            "tipo": "jazz"
+            "tipo": "jazz",
+            "visible": 1
         },
         {
             "nombre": "Place du Tertre 02 2025 <br><small>Bireli Lagrene</small>",
             "direccion": "Place du Tertre 10.02.2025.mp3",
-            "tipo": "jazz"
+            "tipo": "jazz",
+            "visible": 1
         },
         {
             "nombre": "Freedom trio 02 2025 <br><small>Ritchie Havens / Robben Ford</small>",
             "direccion": "Freedom 14.02.2025.mp3",
-            "tipo": "blues"
+            "tipo": "blues",
+            "visible": 1
         },
         {
             "nombre": "On that morning trio 03 2025 <br><small>Robben Ford</small>",
             "direccion": "On that morning trio. 05.03.2025.mp3",
-            "tipo": "blues"
+            "tipo": "blues",
+            "visible": 1
         },
         {
             "nombre": "Cannonball shuffle trio 03 2025 <br><small>Robben Ford</small>",
             "direccion": "Cannonball shuffle trio 03 2025.mp3",
-            "tipo": "blues"
+            "tipo": "blues",
+            "visible": 1
         },
         {
             "nombre": "Comes love 03 2025 <br><small>Sam H. Stept</small>",
             "direccion": "Comes love cuarteto 03 2025.mp3",
-            "tipo": "jazz"
+            "tipo": "jazz",
+            "visible": 0
         },
         {
             "nombre": "Stormy monday 03 2025 <br><small>T-Bone Walker</small>",
             "direccion": "Stormy monday 03 2025.mp3",
-            "tipo": "blues"
+            "tipo": "blues",
+            "visible": 1
         },
         {
             "nombre": "Seule ce soir cuarteto 03 2025 <br><small>Casares / Durand / Contet</small>",
             "direccion": "Seul ce soir cuarteto 03 2025.mp3",
-            "tipo": "jazz"
+            "tipo": "jazz",
+            "visible": 1
         },
         {
             "nombre": "All of me cuarteto 03 2025 <br><small>Gerald Marks & Seymour Simons</small>",
             "direccion": "All off my cuarteto 03 2025.mp3",
-            "tipo": "jazz"
+            "tipo": "jazz",
+            "visible": 1
         },
         {
             "nombre": "Blue Bossa 04 2026 <br><small>Kenny Dorham</small>",
             "direccion": "Blue Bossa electrica 04 2026.mp3",
-            "tipo": "bossa"
+            "tipo": "bossa",
+            "visible": 1
         },
         {
             "nombre": "All Blues 04 2026 <br><small>Miles Davis</small>",
             "direccion": "All Blues 04 2026.mp3",
-            "tipo": "blues"
+            "tipo": "blues",
+            "visible": 1
         },
         {
             "nombre": "Stormy Monday 03 2025 <span>360º</span>",
             "direccion": "https://youtu.be/NY-ss40A04U?si=-zBBUhhtRdyUInmF",
-            "tipo": "video"
+            "tipo": "video",
+            "visible": 1
         },
         {
             "nombre": "Manha de Carnaval 06 2025 <span>360º</span>",
             "direccion": "https://youtu.be/ZNVkix2gX8o?si=rTMssm7I9U-qawGd",
-            "tipo": "video"
+            "tipo": "video",
+            "visible": 0
         },
         {
             "nombre": "Comes Love 03 2025 <span>360º</span>",
             "direccion": "https://youtu.be/Rt8FhHFPEEQ?si=n_p4Fch_FCp7Eq4h",
-            "tipo": "video"
+            "tipo": "video",
+            "visible": 0
         },
         {
             "nombre": "Isn't She Lovely 04 2025 <span>360º</span>",
             "direccion": "https://youtu.be/GhwZAAn-7G8",
-            "tipo": "video"
+            "tipo": "video",
+            "visible": 1
         },
         {
             "nombre": "Lobo López 03 2025 <span>360º</span>",
             "direccion": "https://youtu.be/u2oPkEvLrfw?si=nkpAfCwgM2Lvp6Yf",
-            "tipo": "video"
+            "tipo": "video",
+            "visible": 0
         },
         {
             "nombre": "Bar Kandela 07 03 2026",
             "direccion": "https://www.youtube.com/embed/qIvbMGwkj3g?si=DMRrnOpnYoZqygxW",
-            "tipo": "video"
+            "tipo": "video",
+            "visible": 1
         },
         {
             "nombre": "Jalgi Kafe antzokia 28 03 2026",
             "direccion": "https://www.youtube.com/embed/PsblNAkyeqw",
-            "tipo": "video"
+            "tipo": "video",
+            "visible": 1
         },
         {
             "nombre": "Hiru Taberna 19 06 2026",
             "direccion": "https://youtu.be/8CkT9XRykqg",
-            "tipo": "video"
+            "tipo": "video",
+            "visible": 1
         },
         {
             "nombre": "URNIETA San Joan Plaza - Ermita 06 2026",
             "direccion": "https://youtu.be/jRRBqejLVGI",
-            "tipo": "video"
+            "tipo": "video",
+            "visible": 1
         },
         {
             "nombre": "Ganbara Taberna - matinal 19 07 2026",
             "direccion": "https://youtu.be/0cKeQLrCp00",
-            "tipo": "video"
+            "tipo": "video",
+            "visible": 1
         }
     ]
 }

@@ -13,19 +13,20 @@ const listaDatos = DATOS => {
         dir = DATOS.elementos[i].direccion
         tipo = DATOS.elementos[i].tipo
         nombre = DATOS.elementos[i].nombre
+        v = DATOS.elementos[i].visible
         if (tipo === "video") {
             videos.innerHTML += `<li id="elemento${[i]}" onclick="window.open('${dir}',
                 'blank')" class="elemento">${nombre}</li>`
-        } else if (tipo === "foto") {
+        } else if (tipo === "foto" && v===1) {
             fotos.innerHTML += `<li id="elemento${[i]}" onclick="window.open('${dir}',
                 'blank')" class="elemento">${nombre}</li>`
-        } else if (tipo === "jazz") {
+        } else if (tipo === "jazz" && v===1 ) {
             standars.innerHTML += `<li id="elemento${[i]}" onclick="play('${dir}')" 
             class="elemento"><img src="img/play.svg">${nombre}</li>`
-        } else if (tipo === "bossa") {
+        } else if (tipo === "bossa" && v===1) {
             bossa.innerHTML += `<li id="elemento${[i]}" onclick="play('${dir}')" 
             class="elemento"><img src="img/play.svg">${nombre}</li>`
-        } else if (tipo === "blues" || tipo === "intemporal") {
+        } else if (tipo === "blues" || tipo === "intemporal" && v===1) {
             blues.innerHTML += `<li id="elemento${[i]}" onclick="play('${dir}')" 
             class="elemento"><img src="img/play.svg">${nombre}</li>`
         }
