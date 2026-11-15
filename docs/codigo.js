@@ -14,7 +14,7 @@ const listaDatos = DATOS => {
         tipo = DATOS.elementos[i].tipo
         nombre = DATOS.elementos[i].nombre
         v = DATOS.elementos[i].visible
-        if (tipo === "video") {
+        if (tipo === "video" && v===1) {
             videos.innerHTML += `<li id="elemento${[i]}" onclick="window.open('${dir}',
                 'blank')" class="elemento">${nombre}</li>`
         } else if (tipo === "foto" && v===1) {
