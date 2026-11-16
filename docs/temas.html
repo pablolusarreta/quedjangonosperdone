@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/favicon.ico" />
+    <title>Todos los temas</title>
+
+</head>
+
+<body>
+
+
+    <section id="temas" class="bg-light">
+        <div class="container">
+            <h2>Repertorio</h2>
+            <div id="listaTemas" class="temas-grid">
+                <div class="estilo-col">
+                    <h3>Standars</h3>
+                    <ul id="standars">
+                        <!--/////////////////////-->
+                    </ul>
+                </div>
+                <div class="estilo-col">
+                    <h3>Bossa Nova</h3>
+                    <ul id="bossa">
+                        <!--/////////////////////-->
+                    </ul>
+                </div>
+                <div class="estilo-col">
+                    <h3>Blues & Intemporales</h3>
+                    <ul id="blues">
+                        <!--/////////////////////-->
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </section>
+</body>
+<script>
+    const $ = ele => document.querySelector(ele)
+    const standars = $('#standars')
+    const bossa = $('#bossa')
+    const blues = $('#blues')
+    const reproductor = $('#reproductor')
+    //
+    const listaDatos = DATOS => {
+        let dir, tipo, nombre
+        for (let i in DATOS.elementos) {
+            dir = DATOS.elementos[i].direccion
+            tipo = DATOS.elementos[i].tipo
+            nombre = DATOS.elementos[i].nombre
+            if (tipo === "jazz") {
+                standars.innerHTML += `<li id="elemento${[i]}" onclick="play('${dir}')" 
+            class="elemento"><img src="img/play.svg">${nombre}</li>`
+            } else if (tipo === "bossa") {
+                bossa.innerHTML += `<li id="elemento${[i]}" onclick="play('${dir}')" 
+            class="elemento"><img src="img/play.svg">${nombre}</li>`
+            } else if (tipo === "blues" || tipo === "intemporal") {
+                blues.innerHTML += `<li id="elemento${[i]}" onclick="play('${dir}')" 
+            class="elemento"><img src="img/play.svg">${nombre}</li>`
+            }
+        }
+    }
+    const play = tema => {
+        window.open(`MP3/${tema}`, 'blank')
+    }
+    const t = new Date().getTime()
+    fetch(`datos.json?t=${t}`)
+        .then(response => response.json())
+        .then(data => {
+            data.elementos.reverse()
+            listaDatos(data)
+        })
+
+</script>
+
+</html>

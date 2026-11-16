@@ -141,20 +141,6 @@ nav {
     box-shadow: 0 6px 15px rgba(0, 0, 0, 0.6);
 }
 
-.estilo-col-lista {
-    font-size: 1.4em;
-    text-align: center;
-}
-
-.estilo-col-lista>span {
-    font-size: 0.7em;
-    float: right;
-    color: #999;
-}
-
-.estilo-col-lista>ul li:hover {
-    color: initial;
-}
 
 .bg-light {
     background: transparent;
