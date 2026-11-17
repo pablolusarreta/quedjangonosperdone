@@ -90,7 +90,6 @@ nav {
     text-decoration: none;
     margin-left: 5rem;
     font-weight: 400;
-
     transition: color 0.5s;
 }
 
@@ -229,6 +228,11 @@ footer h2 {
     max-height: 50px;
     text-decoration: none;
     border-radius: 6px;
+    transition: color 0.5s;
+}
+
+.contact-info a:hover {
+    color: #fff
 }
 
 /* Estructura de la imagen dentro del enlace */
