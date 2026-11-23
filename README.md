@@ -1,7 +1,7 @@
 # Web de Que Django nos perdone !
 Grupo musical de jazz, bossa y blues.
 ## La Banda
-Trio rondando los 60, tocamos versiones de los temas que nos gustan intentando encajar, siempre dentro del jazz y blues.
+Trio rondando los 60, tocando versiones de los temas que mas nos gustan, intentando encajar siempre dentro del jazz y blues.
 ## Instrumentos
 Guitarra electrica y de manouche , bateria acustica, y bajo electrico, equipo propio y pensado sonar en toda la sala por igual! no llevamos  amplis individuales.
                 
