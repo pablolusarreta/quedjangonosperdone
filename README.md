@@ -1,13 +1,13 @@
 # Web de Que Django nos perdone !
-Grupo musical de jazz, bossa y blues
+Grupo musical de jazz, bossa y blues.
 ## La Banda
-Somos un trio que rondamos los 60, tocamos versiones de los temas que nos gustan intentando encajar, siempre dentro del jazz y blues.
+Trio rondando los 60, tocamos versiones de los temas que nos gustan intentando encajar, siempre dentro del jazz y blues.
 ## Instrumentos
-Guitarra electrica, bateria acustica, y bajo electrico, equipo propio y pensado sonar en toda la sala por igual! no llevamos pesados amplis.
+Guitarra electrica y de manouche , bateria acustica, y bajo electrico, equipo propio y pensado sonar en toda la sala por igual! no llevamos  amplis individuales.
                 
-##### Listado de ultimo concierto
+##### Listado del ultimo concierto
     
-###   Taberna de Egia  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;*<sup>20/11/2026</sup>*
+###   Taberna de Egia  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;*20/11/2026*
     All blues
     Isn't she lovely
     Fly me to the moon
