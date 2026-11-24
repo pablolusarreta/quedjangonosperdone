@@ -37,6 +37,11 @@
             "visible": 1
         },
         {
+            "nombre": "Taberna de Egia 20 11 2026",
+            "direccion": "https://drive.google.com/drive/folders/19gLAbFBzAjI6xPFad5HdwGQirk9GTjoa?usp=sharing",
+            "tipo": "foto",
+            "visible": 1
+        },{
             "nombre": "Vídeo Etxeberri Plaza 09 2023",
             "direccion": "https://www.youtube.com/embed/d5TaasrK3go?si=SNbkQRNnFU6O9wEz",
             "tipo": "video",
@@ -214,7 +219,7 @@
             "nombre": "Stormy Monday 03 2025 <span>360º</span>",
             "direccion": "https://youtu.be/NY-ss40A04U?si=-zBBUhhtRdyUInmF",
             "tipo": "video",
-            "visible": 1
+            "visible": 0
         },
         {
             "nombre": "Manha de Carnaval 06 2025 <span>360º</span>",
@@ -232,7 +237,7 @@
             "nombre": "Isn't She Lovely 04 2025 <span>360º</span>",
             "direccion": "https://youtu.be/GhwZAAn-7G8",
             "tipo": "video",
-            "visible": 1
+            "visible": 0
         },
         {
             "nombre": "Lobo López 03 2025 <span>360º</span>",
@@ -267,6 +272,12 @@
         {
             "nombre": "Ganbara Taberna - matinal 19 07 2026",
             "direccion": "https://youtu.be/0cKeQLrCp00",
+            "tipo": "video",
+            "visible": 1
+        },
+        {
+            "nombre": "Taberna de Egia 20 11 2026",
+            "direccion": "https://youtu.be/3pW3rbgAaQs?si=L3_KoYMclZGYhAeM",
             "tipo": "video",
             "visible": 1
         }
