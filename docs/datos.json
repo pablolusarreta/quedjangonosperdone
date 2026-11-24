@@ -1,45 +1,21 @@
 {
     "elementos": [
         {
-            "nombre": "Cartel genérico &nbsp;&#x1f583;",
-            "direccion": "FOTOS/CARTEL.webp",
-            "tipo": "foto",
+            "nombre": "Temas mp3",
+            "direccion": "https://drive.google.com/drive/folders/1iVrE_DkcuH4vMK-3GpnDSSGN1AQ1FC7O?usp=sharing",
+            "tipo": "descarga",
             "visible": 1
         },
         {
-            "nombre": "Santa Korda &nbsp;&#x1f5ce",
-            "direccion": "FOTOS/Santa Korda.webp",
-            "tipo": "foto",
+            "nombre": "Documentos",
+            "direccion": "https://drive.google.com/drive/folders/1QUt1a9CMl5Ul3QgkZd0MYGqLeeK9UYDx?usp=sharing",
+            "tipo": "descarga",
             "visible": 1
         },
         {
-            "nombre": " La Cabra II. El golpe &nbsp;&#x1f5ce",
-            "direccion": "FOTOS/La Cabra II.webp",
-            "tipo": "foto",
-            "visible": 1
-        },
-        {
-            "nombre": "Bistro fada &nbsp;&#x1f5ce",
-            "direccion": "FOTOS/Bistro fada.webp",
-            "tipo": "foto",
-            "visible": 1
-        },
-        {
-            "nombre": "La Taberna de Egia 27 02 2026",
-            "direccion": "FOTOS/La Taberna de Egia 27 02 2026.webp",
-            "tipo": "foto",
-            "visible": 1
-        },
-        {
-            "nombre": "Bar Kandela Urnieta 07 03 2026",
-            "direccion": "FOTOS/Bar Kandela Urnieta 07 03 2026.webp",
-            "tipo": "foto",
-            "visible": 1
-        },
-        {
-            "nombre": "Taberna de Egia 20 11 2026",
-            "direccion": "https://drive.google.com/drive/folders/19gLAbFBzAjI6xPFad5HdwGQirk9GTjoa?usp=sharing",
-            "tipo": "foto",
+            "nombre": "Imagenes",
+            "direccion": "https://drive.google.com/drive/folders/1FQVunZebedv1naJIpQEbmXdcLiVidpGo?usp=sharing",
+            "tipo": "descarga",
             "visible": 1
         },{
             "nombre": "Vídeo Etxeberri Plaza 09 2023",
@@ -278,6 +254,12 @@
         {
             "nombre": "Taberna de Egia 20 11 2026",
             "direccion": "https://youtu.be/3pW3rbgAaQs?si=L3_KoYMclZGYhAeM",
+            "tipo": "video",
+            "visible": 1
+        },
+        {
+            "nombre": "<img src='img/yt.webp'> CANAL youtube",
+            "direccion": "https://www.youtube.com/@QueDjangonosperdone",
             "tipo": "video",
             "visible": 1
         }

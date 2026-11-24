@@ -4,7 +4,7 @@ const standars = $('#standars')
 const bossa = $('#bossa')
 const blues = $('#blues')
 const videos = $('#videos')
-const fotos = $('#fotos')
+const descargas = $('#descargas')
 const reproductor = $('#reproductor')
 //
 const listaDatos = DATOS => {
@@ -14,19 +14,19 @@ const listaDatos = DATOS => {
         tipo = DATOS.elementos[i].tipo
         nombre = DATOS.elementos[i].nombre
         v = DATOS.elementos[i].visible
-        if (tipo === "video" && v===1) {
+        if (tipo === "video" && v === 1) {
             videos.innerHTML += `<li id="elemento${[i]}" onclick="window.open('${dir}',
                 'blank')" class="elemento">${nombre}</li>`
-        } else if (tipo === "foto" && v===1) {
-            fotos.innerHTML += `<li id="elemento${[i]}" onclick="window.open('${dir}',
+        } else if (tipo === "descarga" && v === 1) {
+            descargas.innerHTML += `<li id="elemento${[i]}" onclick="window.open('${dir}',
                 'blank')" class="elemento">${nombre}</li>`
-        } else if (tipo === "jazz" && v===1 ) {
+        } else if (tipo === "jazz" && v === 1) {
             standars.innerHTML += `<li id="elemento${[i]}" onclick="play('${dir}')" 
             class="elemento"><img src="img/play.svg">${nombre}</li>`
-        } else if (tipo === "bossa" && v===1) {
+        } else if (tipo === "bossa" && v === 1) {
             bossa.innerHTML += `<li id="elemento${[i]}" onclick="play('${dir}')" 
             class="elemento"><img src="img/play.svg">${nombre}</li>`
-        } else if (tipo === "blues" || tipo === "intemporal" && v===1) {
+        } else if (tipo === "blues" || tipo === "intemporal" && v === 1) {
             blues.innerHTML += `<li id="elemento${[i]}" onclick="play('${dir}')" 
             class="elemento"><img src="img/play.svg">${nombre}</li>`
         }
